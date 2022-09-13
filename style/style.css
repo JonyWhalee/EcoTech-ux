@@ -464,7 +464,7 @@ body {
 .servicio-1 {
     width: 450px;
     height: 470px;
-    background: url('../Img/priscilla-du-preez-K8XYGbw4Ahg-unsplash.jpeg');
+    background: url('../img/priscilla-du-preez-K8XYGbw4Ahg-unsplash.jpeg');
     background-size: cover;
     background-position: center;
     margin-right: 40px;
@@ -512,7 +512,7 @@ body {
 .servicio-2 {
     width: 450px;
     height: 470px;
-    background: url('../Img/panel-solar.jpg');
+    background: url('../img/panel-solar.jpg');
     background-size: cover;
     background-position: center;
     margin-right: 40px;
@@ -560,7 +560,7 @@ body {
 .servicio-3 {
     width: 450px;
     height: 470px;
-    background: url('../Img/markus-spiske-sFydXGrt5OA-unsplash-200x300.jpg');
+    background: url('../img/markus-spiske-sFydXGrt5OA-unsplash-200x300.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 40px;
