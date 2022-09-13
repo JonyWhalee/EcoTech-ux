@@ -1,43 +1,167 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style/style.css" />
-        <script defer src="js/main.js"></script>
-        <title>EcoTech | Inicio</title>
-    </head>
-    <body id="body">
-        <header>
-            <div class="header-title-container">
-                <div class="icon-main">
-                    <img src="" alt="icon EcoTech" title="icon EcoTech">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script defer src="js/main.js"></script>
+    <title>EcoTech | Inicio</title>
+</head>
+
+<body id="body">
+    <header>
+        <div class="header-title-container">
+            <div class="icon-main">
+                <img src="" alt="icon EcoTech" title="icon EcoTech">
+            </div>
+            <div class="nav-container">
+                <nav>
+                    <div class="menu-burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <ul id="ul" class="link-container">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Sobre Nosostros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main>
+        <hr>
+        <!-- Cards -->
+        <hr>
+        <div class="quienes-container">
+            <div class="pregunta-container">
+                <h2>Quienes somos?</h2>
+                <h3>Equipo de especialistas en teconologias alternativas</h3>
+            </div>
+            <div>
+                <p class="respond">Eco-Tech se presenta como un cambio de paradigma para tus proyectos, buscando una combinación de la tecnología con la sustentabilidad al servicio de tus necesidades y el entorno en el cual te desarrollas.</p>
+            </div>
+            <a href="#">Saber más</a>
+        </div>
+        <!-- Grids cards -->
+        <div class="parent">
+            <div class="div1">
+                <i class="fa fa-envelope"></i>
+                <h2>Calidad</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est quis blandit quisque nec consequat, risus arcu eu maecenas.</p>
+            </div>
+            <div class="div2">
+                <i class="fa fa-envelope"></i>
+                <h2>Comunidad</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est quis blandit quisque nec consequat, risus arcu eu maecenas.</p>
+            </div>
+            <div class="div3">
+                <i class="fa fa-envelope"></i>
+                <h2>Servicio técnico</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est quis blandit quisque nec consequat, risus arcu eu maecenas.</p>
+            </div>
+            <div class="div4">
+                <i class="fa fa-envelope"></i>
+                <h2>Estructura</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est quis blandit quisque nec consequat, risus arcu eu maecenas.</p>
+            </div>
+            <div class="div5">
+                <i class="fa fa-envelope"></i>
+                <h2>Innovación</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est quis blandit quisque nec consequat, risus arcu eu maecenas.</p>
+            </div>
+            <div class="div6">
+                <i class="fa fa-envelope"></i>
+                <h2>Certificaciones</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est quis blandit quisque nec consequat, risus arcu eu maecenas.</p>
+            </div>
+        </div>
+        <section class="contador-container">
+            <div class="contador ocultar contador-item-container">
+                <div class="contador-number-container">
+                    <span class="contador-span"><i class="fa-solid fa-arrow-up"></i></span>
+                    <div class="contador-cantidad" data-cantidad-total="10" id="contador_cantidad"></div>
                 </div>
-                <div class="nav-container">
-                    <nav>
-                        <div class="menu-burger">
-                            <div class="line1"></div>
-                            <div class="line2"></div>
-                            <div class="line3"></div>
-                        </div>
-                        <ul id="ul" class="link-container">
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Productos</a></li>
-                            <li><a href="#">Servicios</a></li>
-                            <li><a href="#">Sobre Nosostros</a></li>
-                            <li><a href="#">Contacto</a></li>
-                        </ul>
-                    </nav>
+                <h2>Años de experiencia</h2>
+            </div>
+            <div class="contador ocultar contador-item-container">
+                <div class="contador-number-container">
+                    <span class="contador-span"><i class="fa-solid fa-plus"></i></span>
+                    <div class="contador-cantidad" data-cantidad-total="567" id="contador_cantidad"></div>
+                    <p>kW</p>
+                </div>
+                <h2>Potencia generada</h2>
+            </div>
+            <div class="contador ocultar contador-item-container">
+                <div class="contador-number-container">
+                    <span class="contador-span"><i class="fa-solid fa-circle-check"></i></span>
+                    <div class="contador-cantidad" data-cantidad-total="50" id="contador_cantidad"></div>
+                </div>
+                <h2>Proyectos finalizados</h2>
+            </div>
+            <div class="contador ocultar contador-item-container">
+                <div class="contador-number-container">
+                    <span class="contador-span"><i class="fa-solid fa-recycle"></i></span>
+                    <div class="contador-cantidad" data-cantidad-total="17900" id="contador_cantidad"></div>
+                </div>
+                <h2>Toneladas de c02 evitadas</h2>
+            </div>
+        </section>
+        <div class="servicios-container">
+            <h2>Nuestros servicios</h2>
+            <p>¡Consultá por la prestación que quieras!</p>
+            <div class="sevicio-continer">
+                <div class="servicio-1">
+                    <div>
+                        <i class="fa-solid fa-message"></i>
+                        <h4>Asesoramiento</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="servicio-2">
+                    <div>
+                        <i class="fa-solid fa-person-digging"></i>
+                        <h4>Instalacion</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="servicio-3">
+                    <div>
+                        <i class="fa-solid fa-wrench"></i>
+                        <h4>Mantenimiento</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="fixed">
+            <div class="fixed-content">
+                <div class="fixed-div1">
+                    <h2> ¿Quien esta detras de Eco-Tech?</a>
+                    </h2>
+                    <h3>Equipo de especialistas en tecnologías alternativa</h3>
+                </div>
+                <div class="fixed-div2">
+                    <p>Eco-Tech se presenta como un cambio de paradigma para tus proyectos, buscando una combinación de la tecnología con la sustentabilidad al servicio de tus necesidades y el entorno en el cual te desarrollas.</p>
+                </div>
             </div>
-        </header>
-        <main>
+        </div>
+        <br><br><br><br><br><br><br><br>
+    </main>
+    <footer>
 
-        </main>
-        <footer>
+    </footer>
+    <script src="https://kit.fontawesome.com/75849575e5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
 
-        </footer>
-    </body>
 </html>
