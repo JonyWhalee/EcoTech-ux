@@ -32,7 +32,6 @@ body {
     --color16: #717171;
 }
 
-
 /* Nav */
 
 .header-title-container {
@@ -121,6 +120,39 @@ body {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
+/* btn whtsp */
+
+.whatsapp {
+    height: 50px;
+    width: 50px;
+    background-color: #46df62;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    align-items: center;
+    border: #fff solid 3px;
+    transition: all 1s;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.whatsapp i {
+    color: #fff;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.whatsapp:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.whatsapp:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
 
 /* Medias queries */
 
@@ -182,7 +214,6 @@ body {
     }
 }
 
-
 /*CONTADOR STYLES*/
 
 @keyframes aparecer {
@@ -208,7 +239,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 69px 150px 69px 150px;
-    background: #122A65;
+    background: #122a65;
     margin-top: 75px;
 }
 
@@ -227,7 +258,7 @@ body {
 }
 
 .contador-number-container p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -240,12 +271,11 @@ body {
     font-size: 25px;
     font-weight: 600;
     padding-right: 10px;
-    ;
-    color: #2CB31D;
+    color: #2cb31d;
 }
 
 .contador-item-container h2 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -254,13 +284,12 @@ body {
 }
 
 #contador_cantidad {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     color: #fff;
 }
-
 
 /* Background fixed */
 
@@ -273,25 +302,25 @@ body {
 }
 
 .fixed h2 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 600;
     font-size: 44px;
-    color: #FFFFFF;
+    color: #ffffff;
     padding-top: 72px;
 }
 
 .fixed h3 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 80px;
 }
 
 .fixed p {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -329,7 +358,7 @@ body {
 }
 
 .pregunta-container h2 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -337,7 +366,7 @@ body {
 }
 
 .pregunta-container h3 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -346,7 +375,7 @@ body {
 }
 
 .respond {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -389,11 +418,11 @@ body {
 }
 
 .parent div h2 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    color: #228A4C;
+    color: #228a4c;
 }
 
 .parent div p {
@@ -401,7 +430,7 @@ body {
     text-align: center;
     font-weight: 400;
     font-size: 18px;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     padding: 0px 25px 20px 25px;
 }
@@ -438,7 +467,7 @@ body {
 }
 
 .servicios-container h2 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -446,7 +475,7 @@ body {
 }
 
 .servicios-container p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -464,7 +493,7 @@ body {
 .servicio-1 {
     width: 450px;
     height: 470px;
-    background: url('../Img/priscilla-du-preez-K8XYGbw4Ahg-unsplash.jpeg');
+    background: url("../Img/priscilla-du-preez-K8XYGbw4Ahg-unsplash.jpeg");
     background-size: cover;
     background-position: center;
     margin-right: 40px;
@@ -489,7 +518,7 @@ body {
 }
 
 .servicio-1 div h4 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -497,7 +526,7 @@ body {
 }
 
 .servicio-1 div p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -512,7 +541,7 @@ body {
 .servicio-2 {
     width: 450px;
     height: 470px;
-    background: url('../Img/panel-solar.jpg');
+    background: url("../Img/panel-solar.jpg");
     background-size: cover;
     background-position: center;
     margin-right: 40px;
@@ -537,7 +566,7 @@ body {
 }
 
 .servicio-2 div h4 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -545,7 +574,7 @@ body {
 }
 
 .servicio-2 div p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -560,7 +589,7 @@ body {
 .servicio-3 {
     width: 450px;
     height: 470px;
-    background: url('../Img/markus-spiske-sFydXGrt5OA-unsplash-200x300.jpg');
+    background: url("../Img/markus-spiske-sFydXGrt5OA-unsplash-200x300.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 40px;
@@ -584,7 +613,7 @@ body {
 }
 
 .servicio-3 div h4 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -592,7 +621,7 @@ body {
 }
 
 .servicio-3 div p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
