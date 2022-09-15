@@ -8,6 +8,14 @@ let swiper = new Swiper(".mySwiper", {
         delay: 5000,
         disableOnInteraction: false,
     },
+    pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
 });
 
 addEventListener("DOMContentLoaded", () => {
