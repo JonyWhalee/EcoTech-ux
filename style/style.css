@@ -11,6 +11,7 @@ html {
 
 body {
     font-family: "Lato", sans-serif;
+    background: #fdfdfd;
 }
 
 :root {
@@ -429,6 +430,15 @@ body {
     font-weight: 700;
     font-size: 20px;
     color: #228a4c;
+}
+
+.parent div i {
+    font-size: 40px;
+    padding: 28px;
+    background: #FFFFFF;
+    border: 3.5px dashed #FBFBFB;
+    border-radius: 90px;
+    color: #122A65;
 }
 
 .parent div p {
@@ -891,4 +901,172 @@ body {
     background: #2CB31D;
     padding: 4px;
     border-radius: 20px;
+}
+
+
+/*Nosotoros page style*/
+
+.fernando-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 150px 100px 100px 100px;
+    justify-content: center;
+}
+
+.fernando-container img {
+    border-radius: 200px;
+    height: 300px;
+}
+
+.fernando-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.fernando-info-container h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #122A65;
+}
+
+.fernando-info-container span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fernando-info-container p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1B1B1B;
+}
+
+
+/*comapñeros*/
+
+.compañeros-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.compañeros-container h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #1B1B1B;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.compañeros-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.compañeros-item-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.compañeros-item-container div i {
+    font-size: 60px;
+    padding: 58px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 350px;
+}
+
+.compañeros-item-container div p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1B1B1B;
+    margin-top: 30px;
+}
+
+.compañeros-item-container div span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #717171;
+    margin-top: 10px;
+}
+
+
+/*column container*/
+
+.colum-contaier-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 50px 75px;
+}
+
+.colum-contaier-3 img {
+    width: 201px;
+    height: 201px;
+}
+
+.colum-contaier-3 p {
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333333;
+    line-height: 38px;
+}
+
+.nosotros-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    padding: 49px 75px;
+    background-color: #219951;
+    margin-bottom: 100px;
+    margin-top: 125px;
+}
+
+.nosotros-icon-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosotros-icon-container div p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.nosotros-icon-container div i {
+    color: #F1F1F1;
+    font-size: 55px;
+    margin-bottom: 20px;
 }
