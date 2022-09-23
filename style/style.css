@@ -1460,6 +1460,64 @@ body {
 }
 
 
+/* Productos */
+
+
+/* Background fixed */
+
+.fixed-prod {
+    width: 100%;
+    background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/02/panel-solar-1861815.jpg?itok=arIpsjdh");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fixed-prod h2 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    color: #ffffff;
+    padding-top: 72px;
+}
+
+.fixed-prod h3 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 80px;
+}
+
+.fixed-prod p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    padding-right: 145px;
+    padding-left: 145px;
+    text-align: center;
+}
+
+.fixed-content-prod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 450px;
+}
+
+.fixed-content-prod div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 /* Medias queries */
 
 @media screen and (max-width: 480px) {
