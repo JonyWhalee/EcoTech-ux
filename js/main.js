@@ -1,3 +1,6 @@
+let init = () => {
+    burger_nav();
+};
 let swiper = new Swiper(".mySwiper", {
     direction: "horizontal",
     slidesPerview: 1,
@@ -54,9 +57,6 @@ addEventListener("DOMContentLoaded", () => {
         observer.observe(elementoHTML);
     });
 });
-let init = () => {
-    burger_nav();
-};
 const ul = document.getElementById("ul");
 const body = document.getElementById("body");
 
@@ -78,4 +78,24 @@ function val() {
         body.classList.add("no-move");
     }
 }
+
+//Marquee
+(function() {
+    const script = document.createElement("script");
+    const s0 = document.getElementsByTagName("script")[0];
+    script.async = true;
+    script.src = "https://api.adnan-tech.com/public/js/at.js";
+    script.setAttribute("crossorigin", "*");
+    s0.parentNode.insertBefore(script, s0);
+
+    script.onload = function() {
+        at.loadMarquee(
+            "#marquee",
+            `Contactá y te asesoramos ➡ Presupuestá tu proyecto ➡ Reunite con nosotros  ➡  <i class="fa-solid fa-user-shield"> </i>`, {
+                duration: 9, // seconds
+                direction: "rtl", //ltr or rtl
+            }
+        );
+    };
+})();
 init();

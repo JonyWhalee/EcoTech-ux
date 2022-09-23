@@ -435,10 +435,10 @@ body {
 .parent div i {
     font-size: 40px;
     padding: 28px;
-    background: #FFFFFF;
-    border: 3.5px dashed #FBFBFB;
+    background: #ffffff;
+    border: 3.5px dashed #fbfbfb;
     border-radius: 90px;
-    color: #122A65;
+    color: #122a65;
 }
 
 .parent div p {
@@ -509,7 +509,7 @@ body {
 .servicio-1 {
     width: 450px;
     height: 470px;
-    background: url('../img/priscilla-du-preez-K8XYGbw4Ahg-unsplash.jpeg');
+    background: url("../img/priscilla-du-preez-K8XYGbw4Ahg-unsplash.jpeg");
     background-size: cover;
     background-position: center;
     margin-right: 40px;
@@ -557,7 +557,7 @@ body {
 .servicio-2 {
     width: 450px;
     height: 470px;
-    background: url('../img/panel-solar.jpg');
+    background: url("../img/panel-solar.jpg");
     background-size: cover;
     background-position: center;
     margin-right: 40px;
@@ -605,7 +605,7 @@ body {
 .servicio-3 {
     width: 450px;
     height: 470px;
-    background: url('../img/markus-spiske-sFydXGrt5OA-unsplash-200x300.jpg');
+    background: url("../img/markus-spiske-sFydXGrt5OA-unsplash-200x300.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 40px;
@@ -645,7 +645,7 @@ body {
 }
 
 .title-testimony h3 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -653,7 +653,7 @@ body {
 }
 
 .title-testimony p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -699,7 +699,7 @@ body {
 }
 
 .slider-info-container p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -712,16 +712,16 @@ body {
 }
 
 .slider-title-container h3 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    color: #1B1B1B;
+    color: #1b1b1b;
     margin-bottom: 5px;
 }
 
 .slider-title-container span {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -735,7 +735,7 @@ body {
 }
 
 .stars-container i {
-    color: #F8D520;
+    color: #f8d520;
     margin: 5px;
 }
 
@@ -753,7 +753,7 @@ body {
 .slider-img p {
     width: 142px;
     height: 140px;
-    background: url('../img/OIP\ \(1\).jpg');
+    background: url("../img/OIP\ \(1\).jpg");
     background-size: cover;
     background-position: center;
     border-radius: 1000px;
@@ -762,20 +762,20 @@ body {
 .swiper-button-next {
     margin-right: 85px;
     color: #5e5e5e !important;
-    font-size: 60px!important;
-    font-weight: 1000!important;
-    font-weight: 1000!important;
+    font-size: 60px !important;
+    font-weight: 1000 !important;
+    font-weight: 1000 !important;
 }
 
 .swiper-button-prev {
     margin-left: 85px;
-    color: #5e5e5e!important;
-    font-size: 60px!important;
-    font-weight: 1000!important;
+    color: #5e5e5e !important;
+    font-size: 60px !important;
+    font-weight: 1000 !important;
 }
 
 .swiper-wrapper {
-    margin-bottom: 100px!important;
+    margin-bottom: 100px !important;
 }
 
 .footer-container {
@@ -786,7 +786,7 @@ body {
     height: 461px;
     width: 100%;
     gap: 10px;
-    background-color: #122A65;
+    background-color: #122a65;
     box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -803,10 +803,10 @@ body {
 }
 
 .footer-section-1 p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1rem;
     color: #fff;
     text-align: center;
 }
@@ -838,7 +838,7 @@ body {
 }
 
 .section-2-div-1 h3 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -848,7 +848,7 @@ body {
 
 .section-2-div-1 h4,
 .section-2-div-1 span {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 200;
     font-size: 18px;
@@ -863,7 +863,7 @@ body {
 }
 
 .icon-container-2 p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 200;
     font-size: 18px;
@@ -885,11 +885,11 @@ body {
 }
 
 .contactanos-container p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    color: #2CB31D;
+    color: #2cb31d;
     margin-top: 10px;
 }
 
@@ -897,10 +897,99 @@ body {
     font-size: 14px;
     margin-top: 10px;
     margin-left: 10px;
-    color: #122A65;
-    background: #2CB31D;
+    color: #122a65;
+    background: #2cb31d;
     padding: 4px;
     border-radius: 20px;
+}
+
+
+/* Servicios */
+
+.servicios-container-ser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 135px;
+    margin-bottom: 210px
+}
+
+.servicios-container-ser h2 {
+    width: 600px;
+    font-size: 3rem;
+    color: #219951;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.servicios-container-ser p {
+    width: 600px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 900;
+}
+
+.servicios-container-ser .img1 {
+    position: relative;
+    height: 300px;
+    bottom: 6rem;
+    left: 40%;
+}
+
+.servicios-container-ser .img2 {
+    position: relative;
+    height: 270px;
+    left: 40%;
+    top: 6rem;
+}
+
+.servicios-container-ser .img3 {
+    position: relative;
+    height: 170px;
+    top: 0rem;
+    right: 40%;
+}
+
+.img1,
+.img2 {
+    border-radius: 100%;
+}
+
+
+/* Marquee */
+
+#marquee {
+    font-size: 4.5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.container-marquee {
+    border-top: solid 0.7rem rgba(0, 0, 0, 0.05);
+    border-bottom: solid 0.7rem rgba(0, 0, 0, 0.05);
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX( calc(-1 * var(--marquee-element-width) * var(--marquee-elements)));
+    }
+}
+
+.marquee-content li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    max-height: 100%;
+    font-size: 2rem;
+    white-space: nowrap;
+    margin-left: 1rem;
+    font-weight: bold;
 }
 
 
@@ -928,15 +1017,15 @@ body {
 }
 
 .fernando-info-container h3 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    color: #122A65;
+    color: #122a65;
 }
 
 .fernando-info-container span {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -946,11 +1035,11 @@ body {
 }
 
 .fernando-info-container p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    color: #1B1B1B;
+    color: #1b1b1b;
 }
 
 
@@ -964,11 +1053,11 @@ body {
 }
 
 .compañeros-container h3 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
-    color: #1B1B1B;
+    color: #1b1b1b;
     text-align: center;
     margin-bottom: 85px;
 }
@@ -994,16 +1083,16 @@ body {
 }
 
 .compañeros-item-container div p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    color: #1B1B1B;
+    color: #1b1b1b;
     margin-top: 30px;
 }
 
 .compañeros-item-container div span {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -1030,7 +1119,7 @@ body {
 
 .colum-contaier-3 p {
     text-align: center;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -1056,17 +1145,17 @@ body {
 }
 
 .nosotros-icon-container div p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 39px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
 }
 
 .nosotros-icon-container div i {
-    color: #F1F1F1;
+    color: #f1f1f1;
     font-size: 55px;
     margin-bottom: 20px;
 }
@@ -1147,6 +1236,7 @@ body {
     color: #219951;
 }
 
+.card-container div ul li,
 .card-container div p {
     font-family: 'Lato';
     font-style: normal;
@@ -1197,6 +1287,16 @@ body {
 
 /*grid servicios*/
 
+.title-grid-servicios {
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: #333333;
+}
+
 .parent-2 {
     padding: 80px 75px 75px 75px;
     display: grid;
@@ -1243,8 +1343,9 @@ body {
 }
 
 .parent-2 img {
-    width: 400px;
-    height: 260px;
+    width: 421px;
+    height: 240px;
+    border-radius: 12px 12px 0px 0px;
 }
 
 .parent-2 div {
@@ -1257,14 +1358,93 @@ body {
     background: #FFFFFF;
     /* CommonCard */
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
-    border-radius: 12px;
+    border-radius: 0px 0px 12px 12px;
     padding: 20px 0px;
-    width: 400px;
+    width: 421px;
     z-index: 1;
     position: relative;
     bottom: 10px;
+    border-top: solid 8px #219951;
+    ;
 }
 
-.parent-2 div div h4 {
+.parent-2 div div p {
     padding: 0px 179px 0px 179px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #1B1B1B;
+}
+
+.parent-2 div div span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #484848;
+    margin-top: 10px;
+}
+
+
+/* Medias queries */
+
+@media screen and (max-width: 480px) {
+    .icon-main {
+        padding: 0;
+    }
+    .icon-main span {
+        padding-left: 0 rem;
+        font-size: 1.5rem;
+    }
+    .icon-main img {
+        height: 3.5rem;
+    }
+    .link-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-grow: 0.5;
+    }
+    nav ul {
+        position: fixed;
+        top: 4rem;
+        right: -100%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 3rem; */
+        width: 100%;
+        min-height: 100vh;
+        z-index: 1;
+        transition: all 1s;
+    }
+    .link-container li {
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 50px;
+        line-height: 25px;
+    }
+    .link-container li a {
+        font-size: 1rem;
+    }
+    .show-menu {
+        right: 0;
+    }
+    .no-move {
+        overflow: hidden;
+    }
+    .menu-burger {
+        display: block;
+    }
 }
