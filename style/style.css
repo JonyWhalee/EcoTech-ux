@@ -122,6 +122,13 @@ body {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
+.fa-question {
+    color: #aaaaaa;
+    border: solid 2px #aaaaaa;
+    padding: 0.5rem 0.8rem;
+    border-radius: 100%;
+}
+
 
 /* btn whtsp */
 
@@ -941,7 +948,7 @@ body {
 .servicios-container-ser .img2 {
     position: relative;
     height: 270px;
-    left: 40%;
+    left: 37%;
     top: 6rem;
 }
 
@@ -1386,6 +1393,70 @@ body {
     line-height: 27px;
     color: #484848;
     margin-top: 10px;
+}
+
+
+/* Preguntas y respuestas */
+
+.container-pyr-title {
+    text-align: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.container-pyr-title h1 {
+    margin-bottom: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+}
+
+.container-pyr-title p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #484848;
+}
+
+.all-pyr {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-left: 4rem;
+}
+
+.all-pyr b {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.all-pyr p {
+    color: #484848;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 1120px;
+}
+
+.container-pyr {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.espacio {
+    margin-bottom: 100px;
 }
 
 
