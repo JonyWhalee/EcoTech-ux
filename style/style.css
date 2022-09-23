@@ -11,6 +11,7 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
+  background: #fdfdfd;
 }
 
 :root {
@@ -152,6 +153,66 @@ body {
 .whatsapp:hover {
   transform: scale(1.1);
   transition: all 1s;
+}
+
+/* Medias queries */
+
+@media screen and (max-width: 480px) {
+  .icon-main {
+    padding: 0;
+  }
+  .icon-main span {
+    padding-left: 0 rem;
+    font-size: 1.5rem;
+  }
+  .icon-main img {
+    height: 3.5rem;
+  }
+  .link-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 0.5;
+  }
+  nav ul {
+    position: fixed;
+    top: 4rem;
+    right: -100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+    transition: all 1s;
+  }
+  .link-container li {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    line-height: 25px;
+  }
+  .link-container li a {
+    font-size: 1rem;
+  }
+  .show-menu {
+    right: 0;
+  }
+  .no-move {
+    overflow: hidden;
+  }
+  .menu-burger {
+    display: block;
+  }
 }
 
 /*CONTADOR STYLES*/
@@ -364,6 +425,15 @@ body {
   font-weight: 700;
   font-size: 20px;
   color: #228a4c;
+}
+
+.parent div i {
+  font-size: 40px;
+  padding: 28px;
+  background: #ffffff;
+  border: 3.5px dashed #fbfbfb;
+  border-radius: 90px;
+  color: #122a65;
 }
 
 .parent div p {
@@ -900,6 +970,171 @@ body {
   white-space: nowrap;
   margin-left: 1rem;
   font-weight: bold;
+}
+
+/*Nosotoros page style*/
+
+.fernando-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 150px 100px 100px 100px;
+  justify-content: center;
+}
+
+.fernando-container img {
+  border-radius: 200px;
+  height: 300px;
+}
+
+.fernando-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 100px;
+}
+
+.fernando-info-container h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #122a65;
+}
+
+.fernando-info-container span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.fernando-info-container p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1b1b1b;
+}
+
+/*comapñeros*/
+
+.compañeros-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.compañeros-container h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #1b1b1b;
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.compañeros-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.compañeros-item-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.compañeros-item-container div i {
+  font-size: 60px;
+  padding: 58px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 350px;
+}
+
+.compañeros-item-container div p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1b1b1b;
+  margin-top: 30px;
+}
+
+.compañeros-item-container div span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #717171;
+  margin-top: 10px;
+}
+
+/*column container*/
+
+.colum-contaier-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+  padding: 50px 75px;
+}
+
+.colum-contaier-3 img {
+  width: 201px;
+  height: 201px;
+}
+
+.colum-contaier-3 p {
+  text-align: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #333333;
+  line-height: 38px;
+}
+
+.nosotros-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+  padding: 49px 75px;
+  background-color: #219951;
+  margin-bottom: 100px;
+  margin-top: 125px;
+}
+
+.nosotros-icon-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nosotros-icon-container div p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 39px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.nosotros-icon-container div i {
+  color: #f1f1f1;
+  font-size: 55px;
+  margin-bottom: 20px;
 }
 
 /* Medias queries */

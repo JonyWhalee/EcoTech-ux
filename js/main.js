@@ -91,7 +91,7 @@ function val() {
   script.onload = function () {
     at.loadMarquee(
       "#marquee",
-      "Contactá y te asesoramos ➡ Presupuestá tu proyecto ➡ Reunite con nosotros",
+      `Contactá y te asesoramos ➡ Presupuestá tu proyecto ➡ Reunite con nosotros  ➡  <i class="fa-solid fa-user-shield"> </i>`,
       {
         duration: 9, // seconds
         direction: "rtl", //ltr or rtl
