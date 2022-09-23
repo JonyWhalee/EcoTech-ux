@@ -120,6 +120,12 @@ body {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+.fa-question {
+  color: #aaaaaa;
+  border: solid 2px #aaaaaa;
+  padding: 0.5rem 0.8rem;
+  border-radius: 100%;
+}
 
 /* btn whtsp */
 
@@ -1135,6 +1141,33 @@ body {
   color: #f1f1f1;
   font-size: 55px;
   margin-bottom: 20px;
+}
+
+/* Preguntas y respuestas */
+.container-pyr-title {
+  text-align: center;
+  align-items: center;
+  padding: 5rem;
+}
+.all-pyr {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 4rem;
+}
+.all-pyr b {
+  color: #333333;
+}
+.all-pyr p {
+  color: #484848;
+}
+.container-pyr {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.espacio {
+  margin-bottom: 100px;
 }
 
 /* Medias queries */
