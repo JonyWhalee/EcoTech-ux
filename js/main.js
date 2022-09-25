@@ -15,6 +15,21 @@ let swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         dynamicBullets: true,
     },
+});
+let swiper2 = new Swiper(".mySwiper2", {
+    direction: "vertical",
+    slidesPerview: 1,
+    spaceBetween: 0,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+    },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -99,3 +114,15 @@ function val() {
     };
 })();
 init();
+
+function iniciarMap() {
+    var coord = { lat: -34.5956145, lng: -58.4431949 };
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: coord
+    });
+    var marker = new google.maps.Marker({
+        position: coord,
+        map: map
+    });
+}
