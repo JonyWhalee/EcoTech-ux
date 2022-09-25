@@ -1,32 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-        />
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-        />
-        <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-        />
-        <link rel="stylesheet" href="../style/style.css" />
-        <script defer src="../js/main.js"></script>
-        <title>EcoTech | Contacto</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <script defer src="../js/main.js"></script>
+    <title>EcoTech | Contacto</title>
+</head>
+
 </html>
+
 <body id="body">
     <header>
         <div class="header-title-container">
@@ -58,7 +48,59 @@
         <i class="fab fa-whatsapp"></i>
     </a>
     <main>
-
+        <h2 class="contacto-title">Envianos tu consulta</h2>
+        <h3 class="contacto-subtitle">Nuestros asesores te responderán a la brevedad</h3>
+        <div class="form-container">
+            <form action="https://mailthis.to/nricciardi@decreditos.com" method="POST">
+                <input type="text" name="Nombre" id="Nombre" placeholder="Nombre y apellido" required>
+                <input type="number" name="Numero" id="numero" placeholder="Teléfono">
+                <input type="email" name="Email" id="Email" placeholder="Correo electrónico">
+                <div class="contact-icon">
+                    <p>Tipo de instalación</p>
+                    <i class="fa-solid fa-circle-info"></i>
+                </div>
+                <div class="dot-container">
+                    <div>
+                        <input type="radio" id="Hogar" name="instalacion" value="Hogar">
+                        <label for="Hogar">Hogar</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Empresa" name="instalacion" value="Empresa">
+                        <label for="Empresa">Empresa</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Campo" name="instalacion" value="Campo">
+                        <label for="Campo">Campo</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Industrial" name="instalacion" value="Industrial">
+                        <label for="Industrial">Industrial</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Otro" name="instalacion" value="Otro">
+                        <label for="Otro">Otro</label>
+                    </div>
+                </div>
+                <input type="text" name="lugar" id="lugar" placeholder="Lugar de instalación">
+                <textarea name="Mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribí tu mensaje acá..."></textarea>
+                <span>*Todos los campos son obligatorios</span>
+                <input type="submit" class="submit-button" value="Enviar">
+            </form>
+            <div class="social-container">
+                <a href="" class="presupuesto">Solicitar presupuesto <i class="fa-solid fa-comments-dollar"></i></a>
+                <div>
+                    <h4>Contacto</h4>
+                    <a href="https://wa.me/5492657243998?text=Hola%20Buenas!%20Vengo%20desde%20el%20sitio%20de%20EcoTech,%20y%20me%20gustaría%20hablar%20contigo%20:)"><i class="fa-brands fa-whatsapp"></i> +54 9 2657 24-3998</a>
+                    <a href=""><i class="fa-regular fa-envelope"></i>eco.tech.vm@gmail.com</a>
+                </div>
+                <div>
+                    <h4>Redes</h4>
+                    <a href=""><i class="fa-brands fa-instagram"></i>@eco.tech.vm</a>
+                    <a href=""><i class="fa-brands fa-facebook"></i>/eco.tech.vm</a>
+                </div>
+                <div id="map"></div>
+            </div>
+        </div>
     </main>
     <footer class="footer-container">
         <div class="footer-section-1">
@@ -97,4 +139,5 @@
     </footer>
     <script src="https://kit.fontawesome.com/75849575e5.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
 </body>

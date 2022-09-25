@@ -1942,6 +1942,206 @@ body {
 }
 
 
+/*Contacto Page*/
+
+.contacto-title {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    /* Grayscale/10% */
+    color: #333333;
+    margin-bottom: 10px;
+    margin-top: 75px;
+}
+
+.contacto-subtitle {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    /* Grayscale/20% */
+    color: #484848;
+    margin-bottom: 80px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 75px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.form-container form div p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #AAAAAA;
+}
+
+.form-container form div i {
+    color: #122A65;
+}
+
+.dot-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.dot-container div {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.dot-container label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1B1B1B;
+}
+
+#mensaje {
+    background: #F8F8F8;
+    border: 2px solid #E0E0E0;
+    box-shadow: 0px 3px 10px rgba(68, 68, 68, 0.03);
+    border-radius: 10px;
+    gap: 10px;
+    padding: 20px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #AAAAAA;
+}
+
+#Nombre,
+#numero,
+#Email,
+#lugar {
+    padding: 10px 20px;
+    background: #F8F8F8;
+    border: 2px solid #E0E0E0;
+    box-shadow: 0px 3px 10px rgba(68, 68, 68, 0.03);
+    border-radius: 10px;
+    width: 744px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #484848;
+}
+
+.form-container form span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ED4A4A;
+}
+
+.submit-button {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 15px 50px;
+    background: #122A65;
+    border-radius: 8px;
+    width: 156px;
+}
+
+
+/*apartado social de contacto*/
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.social-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    background: #FFFFFF;
+    /* CommonCard */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
+.social-container div h4 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1B1B1B;
+}
+
+.social-container div a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration-line: underline;
+}
+
+.social-container div i {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.presupuesto {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #219951;
+    border-radius: 8px;
+    padding: 15px 130px;
+    gap: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
 /* Background fixed */
 
 .fixed-prod {
