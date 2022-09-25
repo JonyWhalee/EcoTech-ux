@@ -531,6 +531,33 @@ body {
     margin-bottom: 150px;
 }
 
+.jkjk {
+    position: relative;
+    top: 200px;
+}
+
+.servicio-1:hover .jkjk {
+    top: 0px;
+}
+
+.lklk {
+    position: relative;
+    top: 200px;
+}
+
+.servicio-3:hover .lklk {
+    top: 0px;
+}
+
+.pkpk {
+    position: relative;
+    top: 200px;
+}
+
+.servicio-2:hover .pkpk {
+    top: 0px;
+}
+
 .servicio-1 {
     width: 450px;
     height: 470px;
@@ -539,6 +566,7 @@ body {
     background-position: center;
     margin-right: 40px;
     border-radius: 40px;
+    transition: all 0.5s ease-in-out;
 }
 
 .servicio-1 div {
@@ -551,11 +579,15 @@ body {
     justify-content: center;
     border-radius: 40px;
     transition: all 0.5s;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    overflow: hidden;
 }
 
 .servicio-1 div i {
     color: #fff;
     font-size: 60px;
+    margin-bottom: 15px;
 }
 
 .servicio-1 div h4 {
@@ -570,13 +602,13 @@ body {
     font-family: "Lato";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 22px;
     color: #fff;
     text-align: center;
-    position: relative;
-    bottom: 100%;
-    display: none;
-    color: #000;
+    margin-top: 50px;
+    padding: 0px 70px;
+    transition: all 0.5s ease-in-out;
 }
 
 .servicio-2 {
@@ -587,6 +619,9 @@ body {
     background-position: center;
     margin-right: 40px;
     border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    overflow: hidden;
 }
 
 .servicio-2 div {
@@ -598,11 +633,13 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 40px;
-    transition: all 0.5s;
+    transition: all 0.8s ease-in-out;
+    overflow: hidden;
 }
 
 .servicio-2 div i {
     color: #fff;
+    margin-bottom: 15px;
     font-size: 60px;
 }
 
@@ -618,13 +655,14 @@ body {
     font-family: "Lato";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 22px;
     color: #fff;
     text-align: center;
-    position: relative;
-    bottom: 100%;
-    display: none;
-    color: #000;
+    margin-top: 50px;
+    padding: 0px 70px;
+    transition: all 0.8s ease-in-out;
+    overflow: hidden;
 }
 
 .servicio-3 {
@@ -634,6 +672,9 @@ body {
     background-size: cover;
     background-position: center;
     border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    overflow: hidden;
 }
 
 .servicio-3 div {
@@ -651,6 +692,7 @@ body {
 .servicio-3 div i {
     color: #fff;
     font-size: 60px;
+    margin-bottom: 15px;
 }
 
 .servicio-3 div h4 {
@@ -686,16 +728,17 @@ body {
 }
 
 .servicio-3 div p {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 22px;
     color: #fff;
     text-align: center;
-    position: relative;
-    bottom: 100%;
-    display: none;
-    color: #000;
+    margin-top: 50px;
+    padding: 0px 70px;
+    transition: all 0.8s ease-in-out;
+    overflow: hidden;
 }
 
 .mySwiper {
@@ -815,6 +858,121 @@ body {
     box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.05);
 }
 
+
+/*swiper 2*/
+
+.mySwiper2 {
+    width: 100%;
+    height: 594px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.mySwiper2 .slide-v2-1 {
+    background-image: url("../img/girdservicios.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.mySwiper2 .slide-v2-2 {
+    background-image: url("../img/fixingimg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.mySwiper2 .slide-v2-3 {
+    background-image: url("../img/panel-solar.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.swiper-infromation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.swiper-infromation-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.bg {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mySwiper2 .swiper-slide div h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: #ffffff;
+}
+
+.mySwiper2 .swiper-slide div h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+.mySwiper2 .swiper-slide h3 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    /* Grayscale/100% */
+    color: #FFFFFF;
+    padding: 0px 250px;
+}
+
+.puntos {
+    margin-right: 100px!important;
+}
+
+.mySwiper2 .swiper-button-next {
+    transform: rotate(90deg);
+}
+
+.mySwiper2 .swiper-button-prev {
+    transform: rotate(90deg);
+}
+
+
+/*footer*/
+
 .footer-section-1,
 .footer-section-2 {
     display: flex;
@@ -828,7 +986,7 @@ body {
 }
 
 .footer-section-1 p {
-    font-family: "Lato";
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
@@ -863,7 +1021,7 @@ body {
 }
 
 .section-2-div-1 h3 {
-    font-family: "Lato";
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -873,7 +1031,7 @@ body {
 
 .section-2-div-1 h4,
 .section-2-div-1 span {
-    font-family: "Lato";
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 200;
     font-size: 18px;
@@ -888,7 +1046,7 @@ body {
 }
 
 .icon-container-2 p {
-    font-family: "Lato";
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 200;
     font-size: 18px;
