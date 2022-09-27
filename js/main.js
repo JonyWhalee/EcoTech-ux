@@ -15,6 +15,10 @@ let swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         dynamicBullets: true,
     },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
 });
 let swiper2 = new Swiper(".mySwiper2", {
     direction: "vertical",
