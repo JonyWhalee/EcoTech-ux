@@ -250,7 +250,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 69px 150px 69px 150px;
     background: #122a65;
     margin-top: 75px;
@@ -309,7 +309,7 @@ body {
 
 .fixed {
     width: 100%;
-    background-image: url("../Img/panel-solar.jpg");
+    background-image: url("../img/panel-solar.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -429,7 +429,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    padding: 20px 0px 20px 95px;
+    padding: 20px 95px;
 }
 
 .parent div {
@@ -439,7 +439,6 @@ body {
     justify-content: center;
     padding: 25px 20px;
     gap: 15px;
-    width: 427.33px;
     height: 300px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
     border-radius: 12px;
@@ -2412,5 +2411,303 @@ body {
     }
     .menu-burger {
         display: block;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width:1440px) {
+    .puntos {
+        margin-right: 50px !important;
+    }
+    .swiper-infromation-container img {
+        width: 1100px;
+    }
+    .servicio-1,
+    .servicio-2,
+    .servicio-3 {
+        width: 400px;
+        height: 420px;
+    }
+    .servicios-container-ser {
+        padding-left: 100px;
+        margin-top: 0px;
+    }
+    .servicios-container-ser .img1 {
+        left: 18%;
+        top: 5rem;
+    }
+    .servicios-container-ser .img2 {
+        left: 10%;
+        top: 20rem;
+    }
+    .servicios-container-ser .img3 {
+        right: 0%;
+    }
+    .parent-2 {
+        padding: 0;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-width:1200px) {
+    .swiper-infromation-container img {
+        width: 900px;
+    }
+    .puntos {
+        margin-right: 50px !important;
+    }
+    .servicio-1,
+    .servicio-2,
+    .servicio-3 {
+        width: 360px;
+        height: 380px;
+    }
+    .servicios-container-ser {
+        margin-top: 30px;
+        padding-left: 80px;
+    }
+    .servicios-container-ser .img1 {
+        bottom: 0rem;
+        left: 10%;
+        height: 250px;
+        top: 3rem;
+    }
+    .servicios-container-ser .img2 {
+        height: 230px;
+        top: 14rem;
+        left: 10%;
+    }
+    .servicios-container-ser .img3 {
+        height: 120px;
+        right: 0;
+    }
+    .parent-2 {
+        padding: 80px 40px 80px 40px;
+        grid-column-gap: 10px;
+    }
+    .parent-2 img {
+        width: 381px;
+        height: 200px;
+    }
+    .parent-2 div div {
+        width: 381px;
+    }
+    .form-container {
+        gap: 40px;
+        padding: 0px 40px;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width:1000px) {
+    .link-container li {
+        margin-right: 2rem;
+    }
+    .compañeros-item-container div i {
+        font-size: 40px;
+        padding: 38px;
+    }
+    .nosotros-icon-container {
+        gap: 40px;
+        padding: 39px 30px;
+    }
+    .nosotros-icon-container div i {
+        font-size: 45px;
+    }
+    .nosotros-icon-container div p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .hacemos-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .parent-3 div div {
+        width: 456px;
+        height: 300px;
+    }
+    .parent-3 div div h3 {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .parent-3 div div i,
+    .parent-3 div div iconify-icon {
+        font-size: 40px;
+        margin-top: 18px;
+    }
+    .parent-3 div div p {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0px 70px;
+    }
+    .termotanque-container {
+        margin: 70px 20px 50px 20px;
+        gap: 10px;
+        padding: 40px 10px 40px 10px;
+    }
+    .termotanque-container div p {
+        font-size: 14px;
+        line-height: 16px;
+        padding-right: 20px;
+    }
+    .termotanque-container div div {
+        margin-top: 10px;
+        gap: 20px;
+    }
+    .termotanque-container div div div {
+        gap: 10px;
+    }
+    .termotanque-container div div div i {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .termotanque-container div div div span {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .termotanque-container img {
+        width: 360px;
+        height: 164px;
+    }
+    .piletas-container {
+        margin: 0px 20px 75px 20px;
+        padding: 40px 25px;
+    }
+    .piletas-container div p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .piletas-container div img {
+        width: 300px;
+        height: 80px;
+        margin-top: 10px;
+    }
+    .estufas-container {
+        margin: 0px 20px;
+        gap: 30px;
+        padding: 40px 25px;
+    }
+    .pileta-img {
+        width: 329px;
+        height: 275px;
+    }
+    .iluminacion-container {
+        margin: 75px 20px;
+        padding: 25px;
+    }
+    .iluminacion-container img {
+        width: 400px;
+        height: 250px;
+    }
+    .fotovoltaico-container {
+        margin: 0px 20px 75px 20px;
+        padding: 40px 25px;
+    }
+    .mySwiper2 {
+        height: 454px;
+    }
+    .swiper-infromation-container {
+        gap: 20px;
+    }
+    .mySwiper2 .swiper-slide h3 {
+        font-size: 16px;
+        line-height: 30px;
+        padding: 0px 160px;
+    }
+    .swiper-infromation-container img {
+        width: 700px;
+    }
+    .puntos {
+        margin-right: 25px !important;
+    }
+    .parent {
+        padding: 0px 20px;
+    }
+    .parent div i {
+        font-size: 34px;
+        padding: 22px;
+    }
+    .servicio-1 div i,
+    .servicio-2 div i,
+    .servicio-3 div i {
+        font-size: 40px;
+        margin-bottom: 7.5;
+    }
+    .servicio-1 div p,
+    .servicio-2 div p,
+    .servicio-3 div p {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 10px;
+        padding: 0px 20px;
+    }
+    .servicio-1,
+    .servicio-2,
+    .servicio-3 {
+        width: 280px;
+        height: 360px;
+    }
+    .swiper-button-next {
+        margin-right: 35px;
+    }
+    .sevicio-continer {
+        margin-bottom: 95px;
+    }
+    .servicios-container-ser {
+        margin-top: 10px;
+        padding-left: 30px;
+    }
+    .servicios-container-ser h2 {
+        padding-right: 40px;
+        padding-top: 150px;
+    }
+    .servicios-container-ser .img1 {
+        bottom: 0rem;
+        left: 10%;
+        height: 190px;
+        top: 2rem;
+    }
+    .servicios-container-ser .img2 {
+        height: 170px;
+        top: 14rem;
+        left: 0%;
+    }
+    .servicios-container-ser .img3 {
+        height: 100px;
+        right: 0;
+    }
+    .servicios-card-container {
+        padding: 110px 20px;
+    }
+    .card-container {
+        gap: 40px;
+    }
+    .parent-2 {
+        padding: 80px 20px 80px 20px;
+        grid-column-gap: 10px;
+    }
+    .parent-2 img {
+        width: 301px;
+        height: 160px;
+    }
+    .parent-2 div div {
+        width: 301px;
+        padding: 10px 0px;
+    }
+    .form-container {
+        gap: 20px;
+        padding: 0px 40px;
+    }
+    #Nombre,
+    #numero,
+    #Email,
+    #lugar,
+    #mensaje {
+        width: 500px;
+    }
+    .dot-container {
+        gap: 20px;
+    }
+    .all-pyr {
+        margin-right: 3rem;
     }
 }
