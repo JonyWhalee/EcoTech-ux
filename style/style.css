@@ -2421,6 +2421,13 @@ body {
     .swiper-infromation-container img {
         width: 1100px;
     }
+    .parent {
+        padding: 20px 35px;
+    }
+    .parent div i {
+        font-size: 32px;
+        padding: 20px;
+    }
     .servicio-1,
     .servicio-2,
     .servicio-3 {
@@ -2454,6 +2461,17 @@ body {
     }
     .puntos {
         margin-right: 50px !important;
+    }
+    .parent {
+        padding: 20px 35px;
+    }
+    .parent div i {
+        font-size: 32px;
+        padding: 20px;
+    }
+    .parent div {
+        justify-content: flex-start;
+        gap: 8px;
     }
     .servicio-1,
     .servicio-2,
@@ -2623,8 +2641,15 @@ body {
         padding: 0px 20px;
     }
     .parent div i {
-        font-size: 34px;
-        padding: 22px;
+        font-size: 28px;
+        padding: 18px;
+    }
+    .parent div {
+        justify-content: flex-start;
+        gap: 8px;
+    }
+    .parent div p {
+        font-size: 14px;
     }
     .servicio-1 div i,
     .servicio-2 div i,
@@ -2709,5 +2734,718 @@ body {
     }
     .all-pyr {
         margin-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 999px) and (min-width:900px) {
+    .header-title-container {
+        padding: 0.6rem;
+    }
+    .link-container li {
+        margin-right: 1.5rem;
+    }
+    .link-container li a {
+        font-size: 1rem;
+    }
+    .fernando-container {
+        padding: 75px 30px 50px 30px;
+    }
+    .colum-contaier-3 {
+        padding: 20px 25px;
+        gap: 30px;
+    }
+    .compañeros-item-container div i {
+        font-size: 40px;
+        padding: 38px;
+    }
+    .nosotros-icon-container {
+        gap: 40px;
+        padding: 39px 30px;
+    }
+    .nosotros-icon-container div i {
+        font-size: 45px;
+    }
+    .nosotros-icon-container div p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .hacemos-container {
+        padding-left: 40px;
+        padding-right: 40px;
+        gap: 100px;
+    }
+    .hac1 img,
+    .hac2 img {
+        height: 275px;
+    }
+    .hac1 p,
+    .hac2 p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .parent-3 div div {
+        width: 456px;
+        height: 300px;
+    }
+    .parent-3 div div h3 {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .parent-3 div div i,
+    .parent-3 div div iconify-icon {
+        font-size: 40px;
+        margin-top: 18px;
+    }
+    .parent-3 div div p {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0px 70px;
+    }
+    .question-container {
+        padding: 0px 50px;
+    }
+    .termotanque-container {
+        margin: 70px 20px 50px 20px;
+        gap: 10px;
+        padding: 40px 10px 40px 10px;
+    }
+    .termotanque-container div p {
+        font-size: 14px;
+        line-height: 16px;
+        padding-right: 20px;
+    }
+    .termotanque-container div div {
+        margin-top: 10px;
+        gap: 20px;
+    }
+    .termotanque-container div div div {
+        gap: 10px;
+    }
+    .termotanque-container div div div i {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .termotanque-container div div div span {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .termotanque-container img {
+        width: 360px;
+        height: 164px;
+    }
+    .piletas-container {
+        margin: 0px 20px 75px 20px;
+        padding: 40px 25px;
+    }
+    .piletas-container div p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .piletas-container div img {
+        width: 300px;
+        height: 80px;
+        margin-top: 10px;
+    }
+    .estufas-container {
+        margin: 0px 20px;
+        gap: 30px;
+        padding: 40px 25px;
+    }
+    .pileta-img {
+        width: 329px;
+        height: 275px;
+    }
+    .iluminacion-container {
+        margin: 75px 20px;
+        padding: 25px;
+    }
+    .iluminacion-container img {
+        width: 400px;
+        height: 250px;
+    }
+    .fotovoltaico-container {
+        margin: 0px 20px 75px 20px;
+        padding: 40px 25px;
+    }
+    .ongrid img {
+        width: 224.4px;
+        height: 240px;
+    }
+    .fotovoltaico-container div div p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .mySwiper2 {
+        height: 454px;
+    }
+    .swiper-infromation-container {
+        gap: 20px;
+    }
+    .mySwiper2 .swiper-slide h3 {
+        font-size: 15px;
+        line-height: 30px;
+        padding: 0px 120px;
+    }
+    .swiper-infromation-container img {
+        width: 700px;
+    }
+    .puntos {
+        margin-right: 25px !important;
+    }
+    .parent {
+        padding: 0px 20px;
+    }
+    .parent div i {
+        font-size: 28px;
+        padding: 18px;
+    }
+    .parent div {
+        justify-content: flex-start;
+        gap: 8px;
+    }
+    .parent div p {
+        font-size: 14px;
+    }
+    .servicio-1 div i,
+    .servicio-2 div i,
+    .servicio-3 div i {
+        font-size: 40px;
+        margin-bottom: 7.5;
+    }
+    .servicio-1 div p,
+    .servicio-2 div p,
+    .servicio-3 div p {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 10px;
+        padding: 0px 20px;
+    }
+    .servicio-1,
+    .servicio-2,
+    .servicio-3 {
+        width: 240px;
+        height: 320px;
+    }
+    .fixed-content {
+        height: 400px;
+    }
+    .mySwiper {
+        margin-top: 0px;
+    }
+    .slider-info-container {
+        width: 570px;
+        height: 204px;
+        gap: 15px;
+    }
+    .slider-container {
+        margin-top: 100px;
+    }
+    .slider-img {
+        width: 125px;
+        height: 125px;
+    }
+    .slider-img p {
+        width: 117px;
+        height: 115px;
+    }
+    .swiper-button-next {
+        margin-right: 20px;
+    }
+    .swiper-button-prev {
+        margin-left: 40px;
+    }
+    .sevicio-continer {
+        margin-bottom: 95px;
+    }
+    .servicios-container-ser {
+        margin-top: 10px;
+        padding-left: 30px;
+    }
+    .servicios-container-ser h2 {
+        padding-right: 20px;
+        padding-top: 100px;
+        width: 500px;
+        font-size: 2.2rem;
+        line-height: 50px;
+    }
+    .servicios-container-ser p {
+        padding-right: 20px;
+        width: 500px;
+    }
+    .servicios-container-ser .img1 {
+        bottom: 0rem;
+        left: 10%;
+        height: 190px;
+        top: 2rem;
+    }
+    .servicios-container-ser .img2 {
+        height: 170px;
+        top: 14rem;
+        left: 0%;
+    }
+    .servicios-container-ser .img3 {
+        height: 100px;
+        right: 0;
+    }
+    .servicios-card-container {
+        padding: 110px 20px;
+    }
+    .card-container {
+        gap: 40px;
+    }
+    .card-container img {
+        width: 200px;
+        height: 200px;
+    }
+    .card-container div {
+        padding: 16px 35px;
+        gap: 15px;
+        width: 600px;
+    }
+    .card-container div h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .card-container div ul li,
+    .card-container div p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .parent-2 {
+        padding: 80px 20px 80px 20px;
+        grid-column-gap: 10px;
+    }
+    .parent-2 img {
+        width: 261px;
+        height: 160px;
+    }
+    .parent-2 div div {
+        width: 261px;
+        padding: 10px 0px;
+    }
+    .parent-2 div div p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .parent-2 div div span {
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 5px;
+    }
+    .form-container {
+        gap: 20px;
+        padding: 0px 40px;
+    }
+    #Nombre,
+    #numero,
+    #Email,
+    #lugar,
+    #mensaje {
+        width: 450px;
+    }
+    .dot-container {
+        gap: 10px;
+    }
+    .all-pyr {
+        margin-right: 3rem;
+    }
+    .footer-container {
+        padding: 45px 30px;
+    }
+    .presupuesto {
+        padding: 15px 90px;
+        font-size: 18px;
+        line-height: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 899px) and (min-width:800px) {
+    .header-title-container {
+        padding: 0.6rem;
+    }
+    .link-container li {
+        margin-right: 1.5rem;
+    }
+    .link-container li a {
+        font-size: 1rem;
+    }
+    .fernando-container {
+        padding: 75px 30px 50px 30px;
+    }
+    .fernando-container img {
+        height: 225px;
+    }
+    .fernando-info-container {
+        padding-left: 30px;
+    }
+    .fernando-container h3 {
+        font-size: 32px;
+    }
+    .fernando-container span {
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .fernando-info-container p {
+        font-size: 16px;
+    }
+    .colum-contaier-3 {
+        padding: 20px 25px;
+        gap: 30px;
+    }
+    .colum-contaier-3 img {
+        width: 150px;
+        height: 150px;
+    }
+    .colum-contaier-3 p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .compañeros-item-container div i {
+        font-size: 40px;
+        padding: 38px;
+    }
+    .nosotros-icon-container {
+        gap: 40px;
+        padding: 39px 30px;
+    }
+    .nosotros-icon-container div i {
+        font-size: 45px;
+    }
+    .nosotros-icon-container div p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .hacemos-container {
+        padding-left: 40px;
+        padding-right: 40px;
+        gap: 100px;
+    }
+    .hac1 img,
+    .hac2 img {
+        height: 275px;
+    }
+    .hac1 p,
+    .hac2 p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .parent-3 div div {
+        width: 380px;
+        height: 230px;
+    }
+    .parent-3 div div h3 {
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+    .parent-3 div div i,
+    .parent-3 div div iconify-icon {
+        font-size: 40px;
+        margin-top: 18px;
+    }
+    .parent-3 div div p {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0px 50px;
+    }
+    .question-container {
+        padding: 0px 50px;
+        gap: 40px;
+    }
+    .question-container h3 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .question-container p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .termotanque-container {
+        margin: 70px 20px 50px 20px;
+        gap: 10px;
+        padding: 40px 10px 40px 10px;
+    }
+    .termotanque-container div p {
+        font-size: 14px;
+        line-height: 16px;
+        padding-right: 20px;
+    }
+    .termotanque-container div div {
+        margin-top: 10px;
+        gap: 20px;
+    }
+    .termotanque-container div div div {
+        gap: 10px;
+    }
+    .termotanque-container div div div i {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .termotanque-container div div div span {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .termotanque-container img {
+        width: 360px;
+        height: 164px;
+    }
+    .piletas-container {
+        margin: 0px 20px 75px 20px;
+        padding: 40px 25px;
+    }
+    .piletas-container div p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .piletas-container div img {
+        width: 300px;
+        height: 80px;
+        margin-top: 10px;
+    }
+    .estufas-container {
+        margin: 0px 20px;
+        gap: 30px;
+        padding: 40px 25px;
+    }
+    .pileta-img {
+        width: 329px;
+        height: 275px;
+    }
+    .iluminacion-container {
+        margin: 75px 20px;
+        padding: 25px;
+    }
+    .iluminacion-container img {
+        width: 400px;
+        height: 250px;
+    }
+    .fotovoltaico-container {
+        margin: 0px 20px 75px 20px;
+        padding: 40px 25px;
+    }
+    .ongrid img {
+        width: 224.4px;
+        height: 240px;
+    }
+    .fotovoltaico-container div div p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .mySwiper2 {
+        height: 454px;
+    }
+    .swiper-infromation-container {
+        gap: 20px;
+    }
+    .mySwiper2 .swiper-slide h3 {
+        font-size: 15px;
+        line-height: 30px;
+        padding: 0px 120px;
+    }
+    .swiper-infromation-container img {
+        width: 600px;
+    }
+    .puntos {
+        margin-right: 25px !important;
+    }
+    .parent {
+        padding: 0px 10px;
+    }
+    .parent div i {
+        font-size: 28px;
+        padding: 18px;
+    }
+    .parent div {
+        justify-content: flex-start;
+        gap: 7px;
+        padding: 15px 10px;
+    }
+    .parent div p {
+        font-size: 14px;
+    }
+    .contador-container {
+        padding: 40px 50px;
+    }
+    .contador-item-container {
+        margin: 0px 30px;
+    }
+    .servicio-1 div i,
+    .servicio-2 div i,
+    .servicio-3 div i {
+        font-size: 40px;
+        margin-bottom: 7.5;
+    }
+    .servicio-1 div p,
+    .servicio-2 div p,
+    .servicio-3 div p {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 10px;
+        padding: 0px 20px;
+    }
+    .servicio-1,
+    .servicio-2,
+    .servicio-3 {
+        width: 230px;
+        height: 320px;
+    }
+    .servicio-1 {
+        margin-right: 20px;
+    }
+    .servicio-2 {
+        margin-right: 20px;
+    }
+    .fixed-content {
+        height: 400px;
+    }
+    .mySwiper {
+        margin-top: 0px;
+    }
+    .slider-info-container {
+        width: 520px;
+        height: 204px;
+        gap: 15px;
+    }
+    .slider-container {
+        margin-top: 100px;
+    }
+    .slider-img {
+        width: 125px;
+        height: 125px;
+    }
+    .slider-img p {
+        width: 117px;
+        height: 115px;
+    }
+    .swiper-button-next {
+        margin-right: 20px;
+    }
+    .swiper-button-prev {
+        margin-left: 40px;
+    }
+    .sevicio-continer {
+        margin-bottom: 95px;
+    }
+    .servicios-container-ser {
+        margin-top: 10px;
+        padding-left: 30px;
+        margin-bottom: 170px;
+    }
+    .servicios-container-ser h2 {
+        padding-right: 00px;
+        padding-top: 50px;
+        width: 400px;
+        font-size: 2.2rem;
+        line-height: 50px;
+    }
+    .servicios-container-ser p {
+        padding-right: 00px;
+        width: 400px;
+    }
+    .servicios-container-ser .img1 {
+        bottom: 0rem;
+        left: 10%;
+        height: 160px;
+        top: 2rem;
+    }
+    .servicios-container-ser .img2 {
+        height: 140px;
+        top: 12rem;
+        left: 10%;
+    }
+    .servicios-container-ser .img3 {
+        height: 100px;
+        right: 0;
+    }
+    #marquee {
+        font-size: 2.5rem;
+    }
+    .servicios-card-container {
+        padding: 110px 20px;
+    }
+    .card-container {
+        gap: 40px;
+    }
+    .card-container img {
+        width: 200px;
+        height: 200px;
+    }
+    .card-container div {
+        padding: 16px 35px;
+        gap: 15px;
+        width: 600px;
+    }
+    .card-container div h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .card-container div ul li,
+    .card-container div p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .parent-2 {
+        padding: 80px 20px 80px 20px;
+        grid-column-gap: 10px;
+    }
+    .parent-2 img {
+        width: 241px;
+        height: 140px;
+    }
+    .parent-2 div div {
+        width: 241px;
+        padding: 10px 0px;
+    }
+    .parent-2 div div p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .parent-2 div div span {
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 5px;
+    }
+    .form-container {
+        gap: 20px;
+        padding: 0px 40px;
+    }
+    #Nombre,
+    #numero,
+    #Email,
+    #lugar,
+    #mensaje {
+        width: 450px;
+    }
+    .dot-container {
+        gap: 10px;
+    }
+    .all-pyr {
+        margin-right: 3rem;
+    }
+    .footer-container {
+        padding: 55px 20px;
+    }
+    .section-2-div-1 h3 {
+        font-size: 20px;
+    }
+    .presupuesto {
+        padding: 15px 5px;
+        font-size: 18px;
+        line-height: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .social-container div a {
+        font-size: 16px;
+        line-height: 14px;
     }
 }
