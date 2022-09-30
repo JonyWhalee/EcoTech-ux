@@ -21,18 +21,18 @@ let swiper = new Swiper(".mySwiper", {
     },
 });
 let swiper2 = new Swiper(".mySwiper2", {
-    direction: "vertical",
+    direction: "horizontal",
     slidesPerview: 1,
     spaceBetween: 0,
     centeredSlides: true,
     loop: true,
     autoplay: {
-        delay: 5000,
+        delay: 6000,
         disableOnInteraction: false,
     },
     pagination: {
         el: ".swiper-pagination",
-        dynamicBullets: true,
+        dynamicBullets: false,
     },
     navigation: {
         nextEl: ".swiper-button-next",

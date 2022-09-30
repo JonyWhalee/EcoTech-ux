@@ -264,15 +264,17 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
+  line-height: 35px;
   color: #ffffff;
-  margin-bottom: 80px;
+  margin-top: 10px;
 }
 
 .fixed p {
-  font-family: "Roboto";
+  font-family: "Lato";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  line-height: 35px;
   color: #fff;
   padding-right: 145px;
   padding-left: 145px;
@@ -285,6 +287,7 @@ body {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.6);
   height: 450px;
+  gap: 40px;
 }
 
 .fixed-content div {
@@ -365,6 +368,8 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   padding: 20px 95px;
+  grid-row-gap: 40px;
+  grid-column-gap: 40px;
 }
 
 .parent div {
@@ -498,7 +503,7 @@ body {
   background: url("../img/priscilla-du-preez-K8XYGbw4Ahg-unsplash.jpeg");
   background-size: cover;
   background-position: center;
-  margin-right: 40px;
+  margin-right: 80px;
   border-radius: 40px;
   transition: all 0.5s ease-in-out;
 }
@@ -551,7 +556,7 @@ body {
   background: url("../img/panel-solar.jpg");
   background-size: cover;
   background-position: center;
-  margin-right: 40px;
+  margin-right: 80px;
   border-radius: 40px;
   cursor: pointer;
   transition: all 0.8s ease-in-out;
@@ -761,7 +766,7 @@ body {
   border-radius: 1000px;
 }
 
-.swiper-button-next {
+.mySwiper .swiper-button-next {
   margin-right: 85px;
   color: #5e5e5e !important;
   font-size: 60px !important;
@@ -769,7 +774,7 @@ body {
   font-weight: 1000 !important;
 }
 
-.swiper-button-prev {
+.mySwiper .swiper-button-prev {
   margin-left: 85px;
   color: #5e5e5e !important;
   font-size: 60px !important;
@@ -892,15 +897,28 @@ body {
 }
 
 .puntos {
-  margin-right: 100px !important;
+  margin-bottom: 180px;
+}
+
+.mySwiper2 .swiper-pagination-bullet {
+  height: 8px;
+  width: 8px;
+  padding-right: 5px;
+  background-color: #7b7a7a;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
 }
 
 .mySwiper2 .swiper-button-next {
-  transform: rotate(90deg);
+  margin-right: 75px;
+  font-weight: 900;
 }
 
 .mySwiper2 .swiper-button-prev {
-  transform: rotate(90deg);
+  margin-left: 75px;
+  font-weight: 900;
 }
 
 /*footer*/
@@ -2239,14 +2257,15 @@ body {
   font-weight: 500;
   font-size: 22px;
   color: #ffffff;
-  margin-bottom: 80px;
+  margin-top: 10px;
 }
 
 .fixed-prod p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 22px;
+  line-height: 35px;
   color: #fff;
   padding-right: 145px;
   padding-left: 145px;
@@ -2259,6 +2278,7 @@ body {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.6);
   height: 450px;
+  gap: 40px;
 }
 
 .fixed-content-prod div {
@@ -2526,7 +2546,7 @@ body {
     width: 280px;
     height: 360px;
   }
-  .swiper-button-next {
+  .mySwiper .swiper-button-next {
     margin-right: 35px;
   }
   .sevicio-continer {
@@ -2804,10 +2824,10 @@ body {
     width: 117px;
     height: 115px;
   }
-  .swiper-button-next {
+  .mySwiper .swiper-button-next {
     margin-right: 20px;
   }
-  .swiper-button-prev {
+  .mySwiper .swiper-button-prev {
     margin-left: 40px;
   }
   .sevicio-continer {
@@ -3179,10 +3199,10 @@ body {
     width: 117px;
     height: 115px;
   }
-  .swiper-button-next {
+  .mySwiper .swiper-button-next {
     margin-right: 20px;
   }
-  .swiper-button-prev {
+  .mySwiper .swiper-button-prev {
     margin-left: 40px;
   }
   .sevicio-continer {
@@ -3619,10 +3639,10 @@ body {
     width: 102px;
     height: 100px;
   }
-  .swiper-button-next {
+  .mySwiper .swiper-button-next {
     margin-right: 10px;
   }
-  .swiper-button-prev {
+  .mySwiper .swiper-button-prev {
     margin-left: 20px;
   }
   .sevicio-continer {
@@ -3787,7 +3807,6 @@ body {
     font-size: 1rem;
   }
   /* grids */
-
   .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -3795,7 +3814,6 @@ body {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
-
   .div1 {
     grid-area: 1 / 1 / 2 / 2;
   }
@@ -3882,17 +3900,15 @@ body {
     padding-top: 0;
     margin-top: 0;
   }
-  .swiper-button-next,
-  .swiper-button-prev {
+  .mySwiper .swiper-button-next,
+  .mySwiper .swiper-button-prev {
     padding: 1rem;
   }
-
   /* testimonios */
   /* .swiper-button-next {
     font-size: 1rem;
     height: 1px !important;
   } */
-
   /* fer */
   .fernando-container {
     padding: 75px 30px 50px 30px;
@@ -4127,7 +4143,6 @@ body {
     font-size: 14px;
     padding: 0px 15px 15px 15px;
   }
-
   .fixed-content {
     height: 400px;
   }
@@ -4167,10 +4182,10 @@ body {
     width: 102px;
     height: 100px;
   }
-  .swiper-button-next {
+  .mySwiper2 .swiper-button-next {
     margin-right: 10px;
   }
-  .swiper-button-prev {
+  .mySwiper2 .swiper-button-prev {
     margin-left: 20px;
   }
   .sevicio-continer {
@@ -4320,7 +4335,9 @@ body {
     line-height: 14px;
   }
 }
+
 /* nav burger */
+
 @media screen and (max-width: 799px) and (min-width: 0px) {
   .header-title-container {
     height: 5.5rem;
