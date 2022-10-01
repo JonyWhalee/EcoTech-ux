@@ -4565,27 +4565,29 @@ body {
     .servicios-container-ser h2 {
         padding-right: 00px;
         padding-top: 50px;
-        width: 370px;
-        font-size: 2.2rem;
-        line-height: 50px;
+        width: 300px;
+        font-size: 1.8rem;
+        line-height: 40px;
     }
     .servicios-container-ser p {
-        padding-right: 00px;
-        width: 370px;
+        padding-right: 0px;
+        margin-top: 20px;
+        font-size: 1rem;
+        width: 300px;
     }
     .servicios-container-ser .img1 {
         bottom: 0rem;
         left: 20%;
-        height: 160px;
+        height: 150px;
         top: 2rem;
     }
     .servicios-container-ser .img2 {
-        height: 140px;
+        height: 120px;
         top: 12rem;
         left: 0%;
     }
     .servicios-container-ser .img3 {
-        height: 100px;
+        height: 90px;
         right: 0;
     }
     #marquee {
@@ -4825,6 +4827,841 @@ body {
         text-align: center;
         font-size: 18px;
         padding: 0px 40px;
+    }
+}
+
+@media screen and (max-width: 599px) and (min-width: 300px) {
+    .header-title-container {
+        padding: 0.6rem;
+    }
+    .pregunta-container h2 {
+        font-size: 28px;
+    }
+    .pregunta-container h3 {
+        margin-bottom: 40px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .respond {
+        font-size: 1rem;
+        line-height: 25px;
+        padding: 0px 25px;
+    }
+    /* grids */
+    .parent div {
+        height: 250px;
+    }
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .div1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .div2 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .div3 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .div4 {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+    .div5 {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+    .div6 {
+        grid-area: 6 / 1 / 7 / 2;
+    }
+    /* contador */
+    .contador-container span {
+        font-size: 1.6rem;
+    }
+    .contador-container {
+        padding: 20px 0px 50px 0px;
+        flex-wrap: wrap;
+    }
+    .contador-item-container {
+        margin: 0px 10px;
+        padding-top: 20px;
+    }
+    #contador_cantidad {
+        font-size: 1.6rem;
+    }
+    .contador-number-container p {
+        font-size: 1.6rem;
+    }
+    .contador-container h2 {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .servicios-container h2 {
+        font-size: 28px;
+    }
+    .servicios-container p {
+        font-size: 18px;
+        text-align: center;
+        padding: 10px 50px 0px 50px;
+    }
+    /* Servicios */
+    .servicio-1 div i,
+    .servicio-2 div i,
+    .servicio-3 div i {
+        font-size: 40px;
+        /* margin-bottom: 7.5; */
+    }
+    .servicio-1 div h4,
+    .servicio-2 div h4,
+    .servicio-3 div h4 {
+        font-size: 20px
+    }
+    .servicio-1 div p,
+    .servicio-2 div p,
+    .servicio-3 div p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 10px;
+        padding: 0px 20px;
+    }
+    .servicio-1,
+    .servicio-2,
+    .servicio-3 {
+        width: 290px;
+        height: 320px;
+    }
+    .servicio-1 {
+        margin-right: 0px;
+    }
+    .servicio-2 {
+        margin-right: 0px;
+    }
+    /* fixed */
+    .fixed-div2 p {
+        font-size: 1.2rem;
+        font-weight: none;
+        text-decoration: none;
+        line-height: none;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .mySwiper .swiper-button-next {
+        display: none;
+    }
+    .mySwiper .swiper-button-prev {
+        display: none;
+    }
+    /* testimonios */
+    /* fer */
+    .fernando-container {
+        padding: 75px 20px 30px 20px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .fernando-container img {
+        height: 175px;
+    }
+    .fernando-info-container {
+        padding-left: 0px;
+        align-items: center;
+    }
+    .fernando-container h3 {
+        font-size: 20px;
+    }
+    .fernando-container span {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .fernando-info-container p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .colum-contaier-3 {
+        padding: 20px 25px;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .colum-contaier-3 img {
+        width: 150px;
+        height: 150px;
+    }
+    .colum-contaier-3 p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .nosotros-icon-container {
+        gap: 40px;
+        padding: 39px 30px;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .nosotros-icon-container div p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .hacemos-container {
+        padding-left: 25px;
+        padding-right: 25px;
+        gap: 100px;
+    }
+    .hac1 {
+        flex-direction: column;
+    }
+    .hac2 {
+        flex-direction: column-reverse;
+    }
+    .hac1 img,
+    .hac2 img {
+        height: 210px;
+    }
+    .hac1 p,
+    .hac2 p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .hac1 h3,
+    .hac2 h3 {
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .soluciones-title {
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: 45px;
+    }
+    .parent-3 {
+        grid-row-gap: 25px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        margin-bottom: 100px;
+    }
+    .div1-3 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .div2-3 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .div3-3 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .div4-3 {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+    .parent-3 div div {
+        width: 300px;
+        height: 270px;
+    }
+    .parent-3 div div h3 {
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+    .parent-3 div div i,
+    .parent-3 div div iconify-icon {
+        font-size: 38px;
+        margin-top: 14px;
+    }
+    .parent-3 div div p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0px 50px;
+    }
+    .quienes-container {
+        margin-top: 0px;
+    }
+    .quienes-container a {
+        font-size: 16px;
+        padding: 8px 30px;
+    }
+    .respond-2 {
+        padding: 0px 30px;
+        font-size: 15px;
+    }
+    .question-container {
+        padding: 0px 20px;
+        gap: 40px;
+    }
+    .question-container h3 {
+        font-size: 28px;
+        text-align: center;
+        line-height: 35px;
+    }
+    .question-container p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .termotanque-container {
+        margin: 70px 10px 50px 10px;
+        gap: 10px;
+        padding: 40px 10px 40px 10px;
+        flex-direction: column;
+    }
+    .termotanque-container div p {
+        font-size: 14px;
+        line-height: 16px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .termotanque-container div div {
+        margin-top: 20px;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .termotanque-container div div div {
+        gap: 10px;
+    }
+    .termotanque-container div h3 {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .termotanque-container div div div i {
+        font-size: 25px;
+        padding: 15px;
+    }
+    .termotanque-container div div div span {
+        font-size: 17px;
+        line-height: 18px;
+    }
+    .termotanque-container img {
+        width: 210px;
+        height: 120.52px;
+    }
+    .piletas-container {
+        margin: 0px 10px 75px 10px;
+        padding: 40px 15px;
+        flex-direction: column;
+    }
+    .piletas-container div h3 {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .piletas-container div p {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        padding: 0px 20px;
+    }
+    .piletas-container div img {
+        width: 270px;
+        height: 75px;
+        margin-top: 10px;
+    }
+    .estufas-container {
+        margin: 0px 20px;
+        gap: 30px;
+        padding: 40px 25px;
+        flex-direction: column;
+    }
+    .estufas-container img {
+        width: 130px;
+        height: 250px;
+    }
+    .estufas-text-container {
+        gap: 25px;
+    }
+    .estufas-text-1 {
+        gap: 10px;
+    }
+    .estufas-container div div h3 {
+        font-size: 26px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .estufas-container div div p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .pileta-img {
+        width: 260px;
+        height: 205px;
+    }
+    .iluminacion-container {
+        margin: 75px 20px;
+        padding: 25px;
+        flex-direction: column;
+    }
+    .iluminacion-container img {
+        width: 225px;
+        height: 200px;
+    }
+    .iluminacion-container div h3 {
+        font-size: 26px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .iluminacion-container div p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .fotovoltaico-container {
+        margin: 0px 20px 75px 20px;
+        padding: 40px 25px;
+    }
+    .fotovoltaico-container h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .ongrid {
+        flex-direction: column;
+    }
+    .ongrid img {
+        width: 224.4px;
+        height: 240px;
+    }
+    .fotovoltaico-container div div h3 {
+        text-align: center;
+    }
+    .fotovoltaico-container div div p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        padding-right: 0px;
+    }
+    .mySwiper2 {
+        height: 454px;
+    }
+    .swiper-infromation-container {
+        gap: 20px;
+    }
+    .mySwiper2 .swiper-slide h3 {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0px 60px;
+    }
+    .swiper-infromation-container img {
+        width: 200px;
+    }
+    .puntos {
+        margin-bottom: 110px;
+    }
+    .parent {
+        padding: 0px 10px;
+        grid-row-gap: 30px;
+    }
+    .parent div i {
+        font-size: 24px;
+        padding: 14px;
+    }
+    .parent div {
+        justify-content: flex-start;
+        gap: 7px;
+        padding: 15px 10px;
+    }
+    .parent div p {
+        font-size: 14px;
+        padding: 0px 15px 15px 15px;
+    }
+    .fixed-content {
+        height: 400px;
+    }
+    .mySwiper {
+        margin-top: 0px;
+    }
+    .slider-info-container {
+        width: 300px;
+        height: 250px;
+        gap: 15px;
+        padding: 30px 50px;
+        align-items: center;
+    }
+    .slider-container {
+        margin-top: 100px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .slider-container h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .slider-title-container {
+        align-items: center;
+    }
+    .slider-title-container span {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .stars-container i {
+        margin: 6px 4px 0px 4px;
+        font-size: 15px;
+    }
+    .slider-info-container p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .slider-img {
+        width: 120px;
+        height: 120px;
+        position: unset;
+    }
+    .slider-img p {
+        width: 113px;
+        height: 112px;
+    }
+    .mySwiper2 .swiper-slide div h1 {
+        font-size: 22px;
+        text-align: center;
+        line-height: 30px;
+        padding: 0px 40px;
+    }
+    .mySwiper2 .swiper-slide div h2 {
+        font-size: 16px;
+        padding: 0px 60px;
+        text-align: center;
+    }
+    .mySwiper2 .swiper-button-next {
+        display: none;
+    }
+    .mySwiper2 .swiper-button-prev {
+        display: none;
+    }
+    .sevicio-continer {
+        margin-bottom: 95px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .servicios-container-ser {
+        margin-top: 10px;
+        padding-left: 0px;
+        margin-bottom: 170px;
+        flex-direction: column;
+    }
+    .servicios-container-ser h2 {
+        padding-right: 00px;
+        padding-top: 50px;
+        width: 300px;
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .servicios-container-ser p {
+        padding-right: 0px;
+        margin-top: 20px;
+        font-size: 1rem;
+        width: 300px;
+    }
+    .servicios-container-ser .img1 {
+        bottom: 0rem;
+        left: 30%;
+        height: 130px;
+        top: 2rem;
+    }
+    .servicios-container-ser .img2 {
+        height: 120px;
+        top: 10rem;
+        left: 15%;
+    }
+    .servicios-container-ser .img3 {
+        height: 80px;
+        left: 10%;
+        right: 0;
+    }
+    #marquee {
+        font-size: 2.2rem;
+    }
+    .servicios-card-container {
+        padding: 100px 20px;
+    }
+    .card-container {
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+    #card-container-2 {
+        flex-direction: column;
+    }
+    .card-container img {
+        width: 175px;
+        height: 175px;
+    }
+    .card-container div {
+        padding: 16px 40px;
+        gap: 15px;
+        width: fit-content;
+    }
+    .card-container div h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .card-container div ul li,
+    .card-container div p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .card-container div p {
+        text-align: center;
+    }
+    .colum-contaier-3 {
+        padding: 20px 25px;
+        gap: 20px;
+    }
+    .colum-contaier-3 img {
+        width: 150px;
+        height: 150px;
+    }
+    .colum-contaier-3 p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .compañeros-container {
+        margin-top: 50px;
+    }
+    .compañeros-container h3 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .compañeros-item-container div p,
+    .compañeros-item-container div span {
+        font-size: 14px;
+    }
+    .compañeros-item-container {
+        flex-wrap: wrap;
+        padding: 0px 10px;
+        gap: 10px;
+    }
+    .compañeros-item-container div {
+        padding-top: 30px;
+    }
+    .compañeros-item-container div i {
+        font-size: 28px;
+        padding: 26px;
+        line-height: 20px;
+    }
+    .nosotros-icon-container div i {
+        font-size: 36px;
+    }
+    .nosotros-icon-container div p {
+        font-size: 14px;
+        line-height: 20px;
+        font-family: nunito;
+        font-weight: 100;
+    }
+    .title-grid-servicios {
+        font-size: 32px;
+    }
+    .parent-2 {
+        padding: 40px 20px;
+        grid-column-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .parent-2 img {
+        width: 280px;
+        height: 190px;
+    }
+    .parent-2 div div {
+        width: 280px;
+        padding: 10px 0px;
+    }
+    .parent-2 div div p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .parent-2 div div span {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 5px;
+    }
+    .div1-2 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .div2-2 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .div3-2 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .div4-2 {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+    .div5-2 {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+    .div6-2 {
+        grid-area: 6 / 1 / 7 / 2;
+    }
+    .parent-2 .div7-2 {
+        display: none;
+    }
+    .parent-2 .div8-2 {
+        display: none;
+    }
+    .parent-2 .div9-2 {
+        display: none;
+    }
+    .contacto-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .contacto-subtitle {
+        font-size: 18px;
+        padding: 0px 20px;
+    }
+    .form-container {
+        gap: 100px;
+        padding: 0px 15px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    #Nombre,
+    #numero,
+    #Email,
+    #lugar,
+    #mensaje {
+        width: 290px;
+    }
+    .submit-button {
+        font-size: 18px;
+        padding: 10px 10px;
+        width: 140px;
+    }
+    .dot-container {
+        gap: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .dot-container div {
+        gap: 10px;
+    }
+    .container-pyr-title {
+        padding: 2rem 1rem;
+    }
+    .container-pyr-title h1 {
+        font-size: 32px;
+        line-height: 30px;
+    }
+    .container-pyr-title p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .all-pyr {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .all-pyr b {
+        font-size: 20px;
+    }
+    .all-pyr p {
+        font-size: 16px;
+    }
+    .footer-container {
+        padding: 10px 10px;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        gap: 40px;
+    }
+    .footer-section-1 img {
+        height: 120px;
+        width: 120px;
+    }
+    .footer-section-1 p {
+        font-size: 14px;
+    }
+    .icon-container-1 i {
+        font-size: 26px;
+        padding: 10px;
+    }
+    .footer-section-3 {
+        gap: 20px;
+    }
+    .footer-section-3 div li a {
+        font-size: 16px;
+    }
+    .footer-section-3 h3 {
+        font-size: 18px;
+    }
+    .section-2-div-1 h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .section-2-div-1 h4 {
+        font-size: 12px;
+        text-align: center;
+    }
+    .section-2-div-1 span {
+        font-size: 12px;
+        text-align: center;
+    }
+    .icon-container-2 p {
+        font-size: 12px;
+    }
+    .icon-container-1 {
+        margin-top: 0px;
+    }
+    .contactanos-container p {
+        font-size: 16px;
+    }
+    .contactanos-container i {
+        font-size: 12px;
+        margin-left: 8px;
+        padding: 3px;
+    }
+    .footer-section-1,
+    .footer-section-2 {
+        justify-content: space-around;
+        width: 90%;
+        gap: 20px;
+    }
+    .section-2-div-1 h3 {
+        font-size: 18px;
+    }
+    .presupuesto {
+        padding: 15px 5px;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 290px;
+    }
+    .social-container div a {
+        font-size: 18px;
+        line-height: 14px;
+    }
+    .fixed-content {
+        height: 370px;
+        gap: 20px;
+    }
+    .fixed-div2 p {
+        padding: 0;
+        font-size: 14px;
+        width: 100%;
+        padding: 0 40px;
+        line-height: 25px;
+    }
+    .fixed-content-prod img,
+    .fixed-content img {
+        width: 250px;
+    }
+    .fixed-div1 h2 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .fixed-div1 h3 {
+        text-align: center;
+        font-size: 16px;
+        padding: 0px 30px;
+        line-height: 25px;
+    }
+    .title-testimony h3 {
+        font-size: 28px;
+    }
+    .title-testimony p {
+        font-size: 18px;
+        text-align: center;
     }
 }
 
