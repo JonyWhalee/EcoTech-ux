@@ -3852,6 +3852,7 @@ body {
     font-size: 35px;
   }
   .pregunta-container h3 {
+    margin-bottom: 40px;
     font-size: 20px;
   }
   .respond {
@@ -4015,7 +4016,7 @@ body {
   }
   .hac1 img,
   .hac2 img {
-    height: 235px;
+    height: 210px;
   }
   .hac1 p,
   .hac2 p {
@@ -4024,7 +4025,8 @@ body {
   }
   .hac1 h3,
   .hac2 h3 {
-    font-size: 32px;
+    font-size: 28px;
+    line-height: 30px;
   }
   .parent-3 div div {
     width: 330px;
@@ -4053,6 +4055,8 @@ body {
   }
   .question-container h3 {
     font-size: 34px;
+    text-align: center;
+    font-size: 30px;
     line-height: 40px;
   }
   .question-container p {
@@ -4154,7 +4158,7 @@ body {
     height: 240px;
   }
   .fotovoltaico-container div div p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
   }
   .mySwiper2 {
