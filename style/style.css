@@ -3335,6 +3335,8 @@ body {
   .link-container li a {
     font-size: 1rem;
   }
+  /* fer */
+  /* fer */
   .fernando-container {
     padding: 75px 30px 50px 30px;
   }
@@ -3354,6 +3356,41 @@ body {
   }
   .fernando-info-container p {
     font-size: 16px;
+  }
+  .colum-contaier-3 {
+    padding: 20px 25px;
+    gap: 20px;
+  }
+  .colum-contaier-3 img {
+    width: 150px;
+    height: 150px;
+  }
+  .colum-contaier-3 p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .compañeros-item-container {
+    flex-wrap: wrap;
+    padding: 0px 130px;
+  }
+  .compañeros-item-container div i {
+    font-size: 40px;
+    padding: 38px;
+    line-height: 20px;
+  }
+  .nosotros-icon-container {
+    height: 420px;
+    gap: 40px;
+    padding: 39px 30px;
+  }
+  .nosotros-icon-container div i {
+    font-size: 45px;
+  }
+  .nosotros-icon-container div p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: nunito;
+    font-weight: 100;
   }
   .colum-contaier-3 {
     padding: 20px 25px;
@@ -3943,14 +3980,14 @@ body {
   }
   .colum-contaier-3 {
     padding: 20px 25px;
-    gap: 30px;
+    gap: 20px;
   }
   .colum-contaier-3 img {
     width: 150px;
     height: 150px;
   }
   .colum-contaier-3 p {
-    font-size: 18px;
+    font-size: 13px;
     line-height: 24px;
   }
   .compañeros-item-container {
@@ -3960,8 +3997,10 @@ body {
   .compañeros-item-container div i {
     font-size: 40px;
     padding: 38px;
+    line-height: 20px;
   }
   .nosotros-icon-container {
+    height: 320px;
     gap: 40px;
     padding: 39px 30px;
   }
@@ -3969,8 +4008,10 @@ body {
     font-size: 45px;
   }
   .nosotros-icon-container div p {
-    font-size: 17px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: nunito;
+    font-weight: 100;
   }
   .hacemos-container {
     padding-left: 40px;
