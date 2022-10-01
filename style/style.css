@@ -5075,7 +5075,7 @@ body {
         padding: 0px 50px;
     }
     .quienes-container {
-        margin-top: 0px;
+        margin-top: 100px;
     }
     .quienes-container a {
         font-size: 16px;
@@ -5662,6 +5662,9 @@ body {
     .title-testimony p {
         font-size: 18px;
         text-align: center;
+    }
+    .fixed {
+        background-attachment: unset;
     }
 }
 
