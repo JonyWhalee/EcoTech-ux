@@ -3579,6 +3579,8 @@ body {
     }
     .parent {
         padding: 0px 10px;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
     }
     .parent div i {
         font-size: 24px;
@@ -3598,6 +3600,7 @@ body {
     }
     .contador-item-container {
         margin: 0px 20px;
+        font-size: 18px;
     }
     .servicio-1 div i,
     .servicio-2 div i,
@@ -3825,12 +3828,29 @@ body {
     }
     .fixed-content h3 {
         text-align: center;
-        font-size: 15px;
+        font-size: 16px;
+        padding: 0px 40px;
     }
     .fixed-div2 p {
         padding: 0;
-        font-size: 18px;
+        font-size: 16px;
         width: 100%;
+        padding: 0 40px;
+        line-height: 30px;
+    }
+    .fixed-content-prod img,
+    .fixed-content img {
+        width: 600px;
+    }
+    .fixed-div1 h2 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .fixed-div1 h3 {
+        text-align: center;
+        font-size: 18px;
+        padding: 0px 40px;
     }
 }
 
@@ -3931,7 +3951,6 @@ body {
     }
     .fixed h3 {
         font-size: 20px;
-        margin-bottom: 50px;
     }
     .fixed-div2 p {
         font-size: 1.2rem;
@@ -4413,12 +4432,29 @@ body {
     }
     .fixed-content h3 {
         text-align: center;
-        font-size: 15px;
+        font-size: 16px;
+        padding: 0px 40px;
     }
     .fixed-div2 p {
         padding: 0;
-        font-size: 18px;
+        font-size: 16px;
         width: 100%;
+        padding: 0 40px;
+        line-height: 25px;
+    }
+    .fixed-content-prod img,
+    .fixed-content img {
+        width: 500px;
+    }
+    .fixed-div1 h2 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .fixed-div1 h3 {
+        text-align: center;
+        font-size: 18px;
+        padding: 0px 40px;
     }
 }
 
