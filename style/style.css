@@ -919,13 +919,13 @@ body {
 .mySwiper2 .swiper-button-next {
     margin-right: 75px;
     font-weight: 900;
-    top: 50%;
+    top: 40%;
 }
 
 .mySwiper2 .swiper-button-prev {
     margin-left: 75px;
     font-weight: 900;
-    top: 50%;
+    top: 40%;
 }
 
 
@@ -2434,10 +2434,10 @@ body {
 
 /* Medias queries */
 
-@media screen and (max-width: 1600px) and (min-width: 1500px) {
+@media screen and (max-width: 1800px) and (min-width: 1500px) {
     .mySwiper2 .swiper-button-prev,
     .mySwiper2 .swiper-button-next {
-        top: 40%;
+        top: 50%;
     }
 }
 
