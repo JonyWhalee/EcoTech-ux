@@ -1875,13 +1875,13 @@ body {
     overflow: hidden;
 }
 
-.termotanque-container div div div i:active~small {
+.termotanque-container div div div:hover small {
     right: 0px;
     bottom: 150px;
     transition: all 0.4s;
 }
 
-.termotanque-container div div div i:active {
+.termotanque-container div div div:hover i {
     position: relative;
     bottom: 100px;
     transition: all 0.4s;
@@ -1907,7 +1907,7 @@ body {
     cursor: pointer;
 }
 
-.termotanque-container div div div i:active~.granizo {
+.termotanque-container div div div:hover .granizo {
     bottom: 175px;
 }
 
@@ -2224,7 +2224,7 @@ body {
     color: #122a65;
 }
 
-.form-container form div i:active~.contact-alert {
+.form-container form div:hover .contact-alert {
     width: 210px;
     transition: all 0.5s;
     opacity: 0.9;
@@ -2626,10 +2626,10 @@ body {
         width: 360px;
         height: 164px;
     }
-    .termotanque-container div div div i:active~small {
+    .termotanque-container div div div i:hover small {
         bottom: 105px;
     }
-    .termotanque-container div div div i:active~.granizo {
+    .termotanque-container div div div i:hover .granizo {
         bottom: 123px;
     }
     .termotanque-container small {
@@ -2925,10 +2925,10 @@ body {
         width: 360px;
         height: 164px;
     }
-    .termotanque-container div div div i:active~small {
+    .termotanque-container div div div i:hover small {
         bottom: 105px;
     }
-    .termotanque-container div div div i:active~.granizo {
+    .termotanque-container div div div i:hover .granizo {
         bottom: 123px;
     }
     .termotanque-container small {
@@ -3370,10 +3370,10 @@ body {
         width: 360px;
         height: 164px;
     }
-    .termotanque-container div div div i:active~small {
+    .termotanque-container div div div:hover small {
         bottom: 87px;
     }
-    .termotanque-container div div div i:active~.granizo {
+    .termotanque-container div div div:hover .granizo {
         bottom: 105px;
     }
     .termotanque-container small {
@@ -3850,10 +3850,10 @@ body {
         width: 330px;
         height: 134px;
     }
-    .termotanque-container div div div i:active~small {
+    .termotanque-container div div div:hover small {
         bottom: 85px;
     }
-    .termotanque-container div div div i:active~.granizo {
+    .termotanque-container div div div:hover .granizo {
         bottom: 103px;
     }
     .termotanque-container small {
@@ -4545,12 +4545,12 @@ body {
         width: 330px;
         height: 134px;
     }
-    .termotanque-container div div div i:active~small {
+    .termotanque-container div div div:hover small {
         bottom: 85px;
     }
-    .termotanque-container div div div i:active~.granizo,
-    .termotanque-container div div div i:active~.años,
-    .termotanque-container div div div i:active~.nublados {
+    .termotanque-container div div div:hover .granizo,
+    .termotanque-container div div div:hover .años,
+    .termotanque-container div div div:hover .nublados {
         bottom: 103px;
     }
     .termotanque-container small {
@@ -5305,10 +5305,10 @@ body {
         width: 210px;
         height: 120.52px;
     }
-    .termotanque-container div div div i:active~small {
+    .termotanque-container div div div:hover small {
         bottom: 103px;
     }
-    .termotanque-container div div div i:active~.granizo {
+    .termotanque-container div div div:hover .granizo {
         bottom: 120px;
     }
     .termotanque-container small {
@@ -6170,10 +6170,10 @@ body {
         width: 210px;
         height: 120.52px;
     }
-    .termotanque-container div div div i:active~small {
+    .termotanque-container div div div:hover small {
         bottom: 103px;
     }
-    .termotanque-container div div div i:active~.granizo {
+    .termotanque-container div div div:hover .granizo {
         bottom: 120px;
     }
     .termotanque-container small {
@@ -6582,8 +6582,8 @@ body {
         padding: 15px 10px;
         left: 160px;
     }
-    .form-container form div i:active~.contact-alert {
-        width: 140px;
+    .form-container form div:hover .contact-alert {
+        width: 150px;
     }
     .submit-button {
         font-size: 18px;
