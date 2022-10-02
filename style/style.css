@@ -2189,6 +2189,26 @@ body {
     flex-direction: row;
     align-items: baseline;
     gap: 5px;
+    position: relative;
+}
+
+.contact-alert {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1B1B1B;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    padding: 15px 20px;
+    width: 210px;
+    position: absolute;
+    opacity: 0;
+    left: 160px;
+    z-index: -1;
 }
 
 .form-container form div p {
@@ -2202,6 +2222,13 @@ body {
 
 .form-container form div i {
     color: #122a65;
+}
+
+.form-container form div i:active~.contact-alert {
+    width: 210px;
+    transition: all 0.5s;
+    opacity: 0.9;
+    z-index: 2;
 }
 
 .dot-container {
@@ -2238,7 +2265,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    color: #aaaaaa;
+    color: #1b1b1b;
 }
 
 #Nombre,
@@ -6548,6 +6575,15 @@ body {
     #lugar,
     #mensaje {
         width: 100%;
+    }
+    .contact-alert {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 15px 10px;
+        left: 160px;
+    }
+    .form-container form div i:active~.contact-alert {
+        width: 140px;
     }
     .submit-button {
         font-size: 18px;
