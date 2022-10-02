@@ -812,7 +812,7 @@ body {
 }
 
 .mySwiper2 .slide-v2-1 {
-    background-image: url('img/girdservicios.jpg');
+    background-image: url('../img/girdservicios.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -824,7 +824,7 @@ body {
 }
 
 .mySwiper2 .slide-v2-2 {
-    background-image: url('img/fixingimg.jpg');
+    background-image: url('../img/fixingimg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -836,7 +836,7 @@ body {
 }
 
 .mySwiper2 .slide-v2-3 {
-    background-image: url('img/panel-solar.jpg');
+    background-image: url('../img/panel-solar.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -919,11 +919,13 @@ body {
 .mySwiper2 .swiper-button-next {
     margin-right: 75px;
     font-weight: 900;
+    top: 40%;
 }
 
 .mySwiper2 .swiper-button-prev {
     margin-left: 75px;
     font-weight: 900;
+    top: 40%;
 }
 
 
@@ -2370,10 +2372,6 @@ body {
     .swiper-infromation-container img {
         width: 1000px;
     }
-    .mySwiper2 .swiper-button-prev,
-    .mySwiper2 .swiper-button-next {
-        margin-top: 20px;
-    }
     .parent {
         padding: 20px 35px;
     }
@@ -2909,9 +2907,11 @@ body {
     }
     .mySwiper2 .swiper-button-next {
         margin-right: 10px;
+        top: 50%;
     }
     .mySwiper2 .swiper-button-prev {
         margin-left: 10px;
+        top: 50%;
     }
     .parent {
         padding: 0px 20px;
@@ -3340,10 +3340,12 @@ body {
     .mySwiper2 .swiper-button-next {
         font-weight: 300;
         margin-right: 10px;
+        top: 50%
     }
     .mySwiper2 .swiper-button-prev {
         font-weight: 300;
         margin-left: 10px;
+        top: 50%
     }
     .parent {
         padding: 0px 10px;
@@ -3816,10 +3818,12 @@ body {
     .mySwiper2 .swiper-button-prev {
         font-weight: 100;
         margin-left: 5px;
+        top: 50%;
     }
     .mySwiper2 .swiper-button-next {
         font-weight: 100;
         margin-right: 5px;
+        top: 50%;
     }
     .puntos {
         margin-bottom: 140px;
@@ -4560,10 +4564,12 @@ body {
     .mySwiper2 .swiper-button-next {
         margin-right: 5px;
         font-weight: 100;
+        top: 50%;
     }
     .mySwiper2 .swiper-button-prev {
         margin-left: 5px;
         font-weight: 100;
+        top: 50%;
     }
     .sevicio-continer {
         margin-bottom: 95px;
@@ -5261,7 +5267,7 @@ body {
         width: 200px;
     }
     .puntos {
-        margin-bottom: 110px;
+        display: none;
     }
     .parent {
         padding: 0px 10px;
