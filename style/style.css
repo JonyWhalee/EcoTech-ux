@@ -812,7 +812,7 @@ body {
 }
 
 .mySwiper2 .slide-v2-1 {
-    background-image: url('../img/girdservicios.jpg');
+    background-image: url('../img/girdservicios.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -824,7 +824,7 @@ body {
 }
 
 .mySwiper2 .slide-v2-2 {
-    background-image: url('../img/fixingimg.jpg');
+    background-image: url('../img/fixingimg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -836,7 +836,7 @@ body {
 }
 
 .mySwiper2 .slide-v2-3 {
-    background-image: url('../img/panel-solar.jpg');
+    background-image: url('../img/panel-solar.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
