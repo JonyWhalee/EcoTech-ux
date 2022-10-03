@@ -915,14 +915,14 @@ body {
 
 .mySwiper2 .swiper-button-next {
     margin-right: 75px;
-    top: 40%;
+    top: 50%;
     font-weight: 900;
 }
 
 .mySwiper2 .swiper-button-prev {
     margin-left: 75px;
     font-weight: 900;
-    top: 40%;
+    top: 50%;
 }
 
 
@@ -2380,7 +2380,6 @@ body {
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
-    background-attachment: fixed;
 }
 
 .fixed-prod h2 {
@@ -2548,6 +2547,10 @@ body {
 @media screen and (max-width: 1199px) and (min-width: 1000px) {
     .link-container li {
         margin-right: 2rem;
+    }
+    .hac1 h3,
+    .hac2 h3 {
+        line-height: 40px;
     }
     .compañeros-item-container div i {
         font-size: 40px;
