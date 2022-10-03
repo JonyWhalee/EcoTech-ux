@@ -5610,18 +5610,18 @@ body {
     }
     .compañeros-item-container div p,
     .compañeros-item-container div span {
-        font-size: 14px;
+        font-size: 18px;
     }
     .compañeros-item-container {
         flex-wrap: wrap;
         padding: 0px 10px;
-        gap: 10px;
+        gap: 20px;
     }
     .compañeros-item-container div {
         padding-top: 30px;
     }
     .compañeros-item-container div i {
-        font-size: 32px;
+        font-size: 36px;
         padding: 30px;
         line-height: 20px;
     }
@@ -6065,6 +6065,7 @@ body {
         font-size: 28px;
         line-height: 35px;
         margin-top: 45px;
+        padding: 0px 20px;
     }
     .parent-3 {
         grid-row-gap: 25px;
@@ -6470,12 +6471,13 @@ body {
         margin-top: 50px;
     }
     .compañeros-container h3 {
-        font-size: 26px;
+        font-size: 28px;
         margin-bottom: 20px;
+        text-align: center;
     }
     .compañeros-item-container div p,
     .compañeros-item-container div span {
-        font-size: 14px;
+        font-size: 16px;
     }
     .compañeros-item-container {
         flex-wrap: wrap;
@@ -6486,7 +6488,7 @@ body {
         padding-top: 30px;
     }
     .compañeros-item-container div i {
-        font-size: 28px;
+        font-size: 34px;
         padding: 26px;
         line-height: 20px;
     }
