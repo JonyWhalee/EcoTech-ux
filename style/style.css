@@ -2548,6 +2548,10 @@ body {
     .link-container li {
         margin-right: 2rem;
     }
+    .hac1 h3,
+    .hac2 h3 {
+        line-height: 40px;
+    }
     .compañeros-item-container div i {
         font-size: 40px;
         padding: 38px;
