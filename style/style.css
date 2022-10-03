@@ -92,6 +92,10 @@ body {
     color: var(--color1);
 }
 
+.link-container li .active {
+    color: var(--color1);
+}
+
 .menu-burger div {
     width: 25px;
     height: 3px;
