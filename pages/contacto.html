@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="../img/EcotechLogoVerde.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../style/style.css" />
     <script defer src="../js/main.js"></script>
-    <link rel="shortcut icon" href="../img/EcotechLogoVerde.jpg" type="image/x-icon">
+    <script defer src="../js/app.js" ></script>
     <title>EcoTech | Contacto</title>
 </head>
 
@@ -44,18 +45,17 @@
         </div>
         </div>
     </header>
-    <!-- Whatsapp -->
-    <a href="https://wa.me/5492657243998?text=Hola%20Buenas!%20Vengo%20desde%20el%20sitio%20de%20EcoTech,%20y%20me%20gustaría%20hablar%20contigo%20:)" class="whatsapp" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-    </a>
     <main>
         <h2 class="contacto-title">Envianos tu consulta</h2>
         <h3 class="contacto-subtitle">Nuestros asesores te responderán a la brevedad</h3>
         <div class="form-container">
-            <form action="https://mailthis.to/nricciardi@decreditos.com" method="POST">
-                <input type="text" name="Nombre" id="Nombre" placeholder="Nombre y apellido" required>
-                <input type="number" name="Numero" id="numero" placeholder="Teléfono">
-                <input type="email" name="Email" id="Email" placeholder="Correo electrónico">
+            <form class="contact-form">
+                <input type="text" name="nombre" id="Nombre" placeholder="Nombre y apellido" title="Nombre sólo acepta letras y espacios en blanco"
+                pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <input type="number" name="numero" id="numero" placeholder="Teléfono" pattern="[01]{8}" required>
+                <input type="email" name="email" id="Email" placeholder="Correo electrónico" title="Email Incorrecto"
+                pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+                required >
                 <div class="contact-icon">
                     <p>Tipo de instalación</p>
                     <i class="fa-solid fa-circle-info"></i>
@@ -83,17 +83,22 @@
                         <label for="Otro">Otro</label>
                     </div>
                 </div>
-                <input type="text" name="lugar" id="lugar" placeholder="Lugar de instalación">
-                <textarea name="Mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribí tu mensaje acá..."></textarea>
+                <input type="text" name="lugar" id="lugar" placeholder="Lugar de instalación" required>
+                <textarea name="Mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribí tu mensaje acá..."
+                data-pattern="^.{1,255}$"
+                title="Tu comentario no debe exceder los 255 caracteres"
+                required></textarea>
                 <span>*Todos los campos son obligatorios</span>
                 <input type="submit" class="submit-button" value="Enviar">
             </form>
+            <!--  -->
+            <!--  -->
             <div class="social-container">
-                <a href="" class="presupuesto">Solicitar presupuesto <i class="fa-solid fa-comments-dollar"></i></a>
+                <a href="#" class="presupuesto">Solicitar presupuesto <i class="fa-solid fa-comments-dollar"></i></a>
                 <div>
                     <h4>Contacto</h4>
                     <a href="https://wa.me/5492657243998?text=Hola%20Buenas!%20Vengo%20desde%20el%20sitio%20de%20EcoTech,%20y%20me%20gustaría%20hablar%20contigo%20:)"><i class="fa-brands fa-whatsapp"></i> +54 9 2657 24-3998</a>
-                    <a href=""><i class="fa-regular fa-envelope"></i>eco.tech.vm@gmail.com</a>
+                    <a href="#"><i class="fa-regular fa-envelope"></i>eco.tech.vm@gmail.com</a>
                 </div>
                 <div>
                     <h4>Redes</h4>
@@ -105,6 +110,10 @@
                 </div>
             </div>
         </div>
+        <!-- Whatsapp -->
+    <a href="https://wa.me/5492657243998?text=Hola%20Buenas!%20Vengo%20desde%20el%20sitio%20de%20EcoTech,%20y%20me%20gustaría%20hablar%20contigo%20:)" class="whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
     </main>
     <footer class="footer-container">
         <div class="footer-section-1">
@@ -150,7 +159,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://kit.fontawesome.com/75849575e5.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
 </body>
