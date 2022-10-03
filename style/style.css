@@ -915,14 +915,14 @@ body {
 
 .mySwiper2 .swiper-button-next {
     margin-right: 75px;
-    top: 40%;
+    top: 50%;
     font-weight: 900;
 }
 
 .mySwiper2 .swiper-button-prev {
     margin-left: 75px;
     font-weight: 900;
-    top: 40%;
+    top: 50%;
 }
 
 
@@ -2380,7 +2380,6 @@ body {
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
-    background-attachment: fixed;
 }
 
 .fixed-prod h2 {
