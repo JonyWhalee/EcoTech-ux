@@ -248,10 +248,9 @@ body {
 
 .fixed {
     width: 100%;
-    background-image: url("../img/panel-solar.jpg");
+    background-image: url("../img/panel-solar.png");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 .fixed h2 {
@@ -557,7 +556,7 @@ body {
 .servicio-2 {
     width: 450px;
     height: 470px;
-    background: url("../img/panel-solar.jpg");
+    background: url("../img/panel-solar.png");
     background-size: cover;
     background-position: center;
     margin-right: 80px;
