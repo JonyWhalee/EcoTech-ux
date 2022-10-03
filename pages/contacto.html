@@ -51,10 +51,10 @@
         <div class="form-container">
             <form class="contact-form">
                 <input type="text" name="nombre" id="Nombre" placeholder="Nombre y apellido" title="Nombre sólo acepta letras y espacios en blanco"
-                pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-                <input type="number" name="numero" id="numero" placeholder="Teléfono" pattern="[01]{8}" required>
+                 required>
+                <input type="number" name="numero" id="numero" placeholder="Teléfono" required>
                 <input type="email" name="email" id="Email" placeholder="Correo electrónico" title="Email Incorrecto"
-                pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+                
                 required >
                 <div class="contact-icon">
                     <p>Tipo de instalación</p>
@@ -85,8 +85,6 @@
                 </div>
                 <input type="text" name="lugar" id="lugar" placeholder="Lugar de instalación" required>
                 <textarea name="Mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribí tu mensaje acá..."
-                data-pattern="^.{1,255}$"
-                title="Tu comentario no debe exceder los 255 caracteres"
                 required></textarea>
                 <span>*Todos los campos son obligatorios</span>
                 <input type="submit" class="submit-button" value="Enviar">
