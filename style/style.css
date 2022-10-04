@@ -802,6 +802,12 @@ body {
     margin-bottom: 100px !important;
 }
 
+.mySwiper .swiper-pagination-bullet {
+    height: 15px;
+    width: 15px;
+    background-color: #7b7a7a;
+}
+
 .footer-container {
     display: flex;
     flex-direction: row;
@@ -917,13 +923,16 @@ body {
 }
 
 .mySwiper2 .swiper-pagination-bullet {
-    height: 8px;
-    width: 8px;
-    padding-right: 5px;
+    height: 10px;
+    width: 10px;
     background-color: #7b7a7a;
 }
 
-.swiper-pagination-bullet-active {
+.mySwiper2 .swiper-pagination {
+    padding-bottom: 20px;
+}
+
+.mySwiper2 .swiper-pagination-bullet-active {
     background-color: #fff !important;
 }
 
@@ -961,6 +970,17 @@ body {
     font-size: 1rem;
     color: #fff;
     text-align: center;
+}
+
+.epigrafe {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    width: 100%;
 }
 
 .icon-container-1 {
@@ -1852,7 +1872,7 @@ body {
     flex-direction: row;
     align-items: flex-start;
     margin-top: 30px;
-    gap: 20px;
+    gap: 60px;
 }
 
 .termotanque-container div div div {
@@ -1886,41 +1906,65 @@ body {
     overflow: hidden;
 }
 
-.termotanque-container div div div:hover small {
-    right: 0px;
-    bottom: 150px;
-    transition: all 0.4s;
-}
-
-.termotanque-container div div div:hover i {
-    position: relative;
-    bottom: 100px;
-    transition: all 0.4s;
-}
-
 .termotanque-container small {
-    position: relative;
-    right: 150px;
-    bottom: 50px;
     font-family: "Lato";
     font-style: normal;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 20px;
     text-align: center;
     color: #2db31e;
-    width: 90px;
-    height: 90px;
     border: 5px solid #2cb31d;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 120px;
     padding-top: 20px;
     cursor: pointer;
+    width: 90px;
+    height: 90px;
 }
 
+.jose .carta {
+    perspective: 1000px;
+    cursor: pointer;
+    width: 90px;
+}
+
+.carta-interior {
+    position: relative;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    width: 100%;
+}
+
+.frente {
+    backface-visibility: hidden;
+}
+
+.reverso {
+    backface-visibility: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: rotateY(180deg);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.carta:hover .carta-interior {
+    transform: rotateY(-180deg);
+}
+
+
+/*
 .termotanque-container div div div:hover .granizo {
     bottom: 175px;
 }
+*/
 
 .termotanque-container .nublados {
     padding-top: 10px;
@@ -2233,6 +2277,25 @@ body {
 
 .form-container form div i {
     color: #122a65;
+}
+
+.granizo-text {
+    position: relative;
+}
+
+.granizo-text .contact-alert {
+    left: 120px;
+}
+
+.granizo-text strong {
+    color: #122a65;
+}
+
+.granizo-text:hover .contact-alert {
+    width: 210px;
+    transition: all 0.5s;
+    opacity: 0.9;
+    z-index: 2;
 }
 
 .form-container form div:hover .contact-alert {
@@ -2694,6 +2757,7 @@ body {
     .fixed-content {
         height: 350px;
     }
+    .fixed-content-prod img,
     .fixed-content img {
         width: 800px;
     }
@@ -2836,6 +2900,9 @@ body {
 }
 
 @media screen and (max-width: 999px) and (min-width: 900px) {
+    .hac2 h3 {
+        line-height: 45px;
+    }
     .header-title-container {
         padding: 0.6rem;
     }
@@ -3379,12 +3446,6 @@ body {
         width: 360px;
         height: 164px;
     }
-    .termotanque-container div div div:hover small {
-        bottom: 87px;
-    }
-    .termotanque-container div div div:hover .granizo {
-        bottom: 105px;
-    }
     .termotanque-container small {
         font-size: 12px;
         width: 55px;
@@ -3718,6 +3779,12 @@ body {
 }
 
 @media screen and (max-width: 799px) and (min-width: 700px) {
+    .granizo-text .contact-alert {
+        left: 90px;
+    }
+    .respond-2 {
+        padding: 0px 50px;
+    }
     .header-title-container {
         padding: 0.6rem;
     }
@@ -3798,6 +3865,7 @@ body {
     .hac1 h3,
     .hac2 h3 {
         font-size: 32px;
+        line-height: 40px;
     }
     .parent-3 div div {
         width: 330px;
@@ -3860,12 +3928,6 @@ body {
     .termotanque-container img {
         width: 330px;
         height: 134px;
-    }
-    .termotanque-container div div div:hover small {
-        bottom: 85px;
-    }
-    .termotanque-container div div div:hover .granizo {
-        bottom: 103px;
     }
     .termotanque-container small {
         font-size: 11px;
@@ -4532,16 +4594,16 @@ body {
     .termotanque-container {
         margin: 70px 10px 50px 10px;
         gap: 10px;
-        padding: 40px 10px 40px 10px;
+        padding: 40px 0px 40px 0px;
     }
     .termotanque-container div p {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 16px;
-        padding-right: 20px;
+        padding-right: 70px;
     }
     .termotanque-container div div {
         margin-top: 5px;
-        gap: 10px;
+        gap: 0px;
     }
     .termotanque-container div div div {
         gap: 10px;
@@ -4554,17 +4616,20 @@ body {
         font-size: 12px;
         line-height: 18px;
     }
+    .granizo-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .granizo-text .contact-alert {
+        left: 0;
+        top: 60px;
+        font-size: 10px;
+        line-height: 17px;
+    }
     .termotanque-container img {
         width: 330px;
         height: 134px;
-    }
-    .termotanque-container div div div:hover small {
-        bottom: 85px;
-    }
-    .termotanque-container div div div:hover .granizo,
-    .termotanque-container div div div:hover .años,
-    .termotanque-container div div div:hover .nublados {
-        bottom: 103px;
     }
     .termotanque-container small {
         font-size: 11px;
@@ -5012,6 +5077,12 @@ body {
 }
 
 @media screen and (max-width: 599px) and (min-width: 400px) {
+    .granizo-text .contact-alert {
+        left: 40px;
+        top: 40px;
+        font-size: 10px;
+        line-height: 17px;
+    }
     .header-title-container {
         padding: 0.6rem;
     }
@@ -5317,12 +5388,6 @@ body {
     .termotanque-container img {
         width: 210px;
         height: 120.52px;
-    }
-    .termotanque-container div div div:hover small {
-        bottom: 103px;
-    }
-    .termotanque-container div div div:hover .granizo {
-        bottom: 120px;
     }
     .termotanque-container small {
         font-size: 16px;
@@ -5878,6 +5943,15 @@ body {
 }
 
 @media screen and (max-width: 399px) and (min-width: 300px) {
+    .granizo-text .contact-alert {
+        left: 0px;
+        top: 40px;
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .granizo-text:hover .contact-alert {
+        width: 190px;
+    }
     .header-title-container {
         padding: 0.6rem;
     }
@@ -6183,12 +6257,6 @@ body {
     .termotanque-container img {
         width: 210px;
         height: 120.52px;
-    }
-    .termotanque-container div div div:hover small {
-        bottom: 103px;
-    }
-    .termotanque-container div div div:hover .granizo {
-        bottom: 120px;
     }
     .termotanque-container small {
         font-size: 16px;
