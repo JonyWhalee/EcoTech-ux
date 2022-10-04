@@ -252,11 +252,19 @@ body {
 
 .fixed {
     width: 100%;
-    background-image: url("../img/panel-solar.png");
+    background-image: url("../img/image24.png");
     background-size: cover;
     background-position: center;
 }
 
+.fixed-2 {
+    width: 100%;
+    background-image: url("../img/nosotrosimg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.fixed-2 h2,
 .fixed h2 {
     font-family: "Lato";
     font-style: normal;
@@ -266,6 +274,7 @@ body {
     padding-top: 72px;
 }
 
+.fixed-2 h3,
 .fixed h3 {
     font-family: "Lato";
     font-style: normal;
@@ -276,6 +285,7 @@ body {
     margin-top: 10px;
 }
 
+.fixed-2 p,
 .fixed p {
     font-family: "Lato";
     font-style: normal;
@@ -827,7 +837,7 @@ body {
 }
 
 .mySwiper2 .slide-v2-2 {
-    background-image: url("../img/fixingimg.png");
+    background-image: url("../img/slider2.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -2380,7 +2390,7 @@ body {
 
 .fixed-prod {
     width: 100%;
-    background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/02/panel-solar-1861815.jpg?itok=arIpsjdh");
+    background-image: url("../img/image23.png");
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
@@ -2988,10 +2998,12 @@ body {
         line-height: 30px;
         padding: 0px 120px;
     }
+    .fixed-2 h2,
     .fixed-prod h2,
     .fixed h2 {
         font-size: 36px;
     }
+    .fixed-2 h3,
     .fixed-prod h3,
     .fixed h3 {
         font-size: 18px;
@@ -3433,10 +3445,12 @@ body {
         line-height: 30px;
         padding: 0px 120px;
     }
+    .fixed-2 h2,
     .fixed-prod h2,
     .fixed h2 {
         font-size: 36px;
     }
+    .fixed-2 h3,
     .fixed-prod h3,
     .fixed h3 {
         font-size: 18px;
@@ -4391,9 +4405,11 @@ body {
         margin-right: 15px;
     }
     /* fixed */
+    .fixed-2 h3,
     .fixed h2 {
         font-size: 40px;
     }
+    .fixed-2 h3,
     .fixed h3 {
         font-size: 20px;
     }
@@ -6798,5 +6814,17 @@ body {
     }
     .menu-burger {
         display: block;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .fixed-prod {
+        background-image: url("../img/image25.png");
+    }
+}
+
+@media screen and (max-width: 599px) and (min-width: 200px) {
+    .fixed-prod {
+        background-image: url("../img/image22.png");
     }
 }
