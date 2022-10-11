@@ -150,7 +150,7 @@ body {
     border: #fff solid 3px;
     transition: all 1s;
     overflow: hidden;
-    z-index: 1;
+    z-index: 10;
 }
 
 .whatsapp i {
@@ -252,7 +252,7 @@ body {
 
 .fixed {
     width: 100%;
-    background-image: url("../img/image24.png");
+    background-image: url("../newimg/fixed-inicio.png");
     background-size: cover;
     background-position: center;
 }
@@ -283,6 +283,8 @@ body {
     line-height: 35px;
     color: #ffffff;
     margin-top: 10px;
+    text-align: center;
+    padding: 0 60px;
 }
 
 .fixed-2 p,
@@ -517,7 +519,7 @@ body {
 .servicio-1 {
     width: 450px;
     height: 470px;
-    background: url("../img/priscilla-du-preez-K8XYGbw4Ahg-unsplash.jpeg");
+    background: url("../newimg/servicio-1.png");
     background-size: cover;
     background-position: center;
     margin-right: 80px;
@@ -570,7 +572,7 @@ body {
 .servicio-2 {
     width: 450px;
     height: 470px;
-    background: url("../img/panel-solar.png");
+    background: url("../newimg/servicio-2.png");
     background-size: cover;
     background-position: center;
     margin-right: 80px;
@@ -624,7 +626,7 @@ body {
 .servicio-3 {
     width: 450px;
     height: 470px;
-    background: url("../img/markus-spiske-sFydXGrt5OA-unsplash-200x300.jpg");
+    background: url("../newimg/servicio-3.png");
     background-size: cover;
     background-position: center;
     border-radius: 40px;
@@ -634,7 +636,7 @@ body {
 }
 
 .servicio-3 div {
-    background: rgba(12, 101, 53, 0.4);
+    background: rgba(18, 42, 101, 0.4);
     height: 100%;
     width: 100%;
     display: flex;
@@ -774,13 +776,33 @@ body {
     padding: 4px;
 }
 
+.slider-sergio {
+    background: url("../newimg/sergio-slider.png");
+}
+
+.soledad-slider {
+    background: url("../newimg/soledad-slider.png");
+}
+
+.hugo-slider {
+    background: url("../newimg/hugo-slider.png");
+}
+
+.pablo-slider {
+    background: url("../newimg/pablo-slider.png");
+}
+
+.brenda-slider {
+    background: url("../newimg/brenda-slider.png");
+}
+
 .slider-img p {
     width: 142px;
-    height: 140px;
-    background: url("../img/OIP\ \(1\).jpg");
+    height: 142px;
     background-size: cover;
     background-position: center;
     border-radius: 1000px;
+    text-align: center;
 }
 
 .mySwiper .swiper-button-next {
@@ -832,7 +854,7 @@ body {
 }
 
 .mySwiper2 .slide-v2-1 {
-    background-image: url("../img/girdservicios.jpg");
+    background-image: url("../newimg/slider-1.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -843,7 +865,7 @@ body {
 }
 
 .mySwiper2 .slide-v2-2 {
-    background-image: url("../img/slider2.png");
+    background-image: url("../newimg/slider-2.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -854,7 +876,7 @@ body {
 }
 
 .mySwiper2 .slide-v2-3 {
-    background-image: url("../img/panel-solar.png");
+    background-image: url("../newimg/slider-3.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1217,7 +1239,6 @@ body {
 }
 
 .fernando-container img {
-    border-radius: 200px;
     height: 300px;
 }
 
@@ -1288,11 +1309,10 @@ body {
     align-items: center;
 }
 
-.compañeros-item-container div i {
-    font-size: 60px;
-    padding: 58px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+.compañeros-item-container div img {
     border-radius: 350px;
+    height: 200px;
+    width: 200px;
 }
 
 .compañeros-item-container div p {
@@ -1319,16 +1339,16 @@ body {
 .colum-contaier-3 {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    gap: 100px;
-    padding: 50px 75px;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 50px 40px;
+    justify-content: space-evenly;
 }
 
 .colum-contaier-3 img {
     width: 201px;
-    height: 201px;
-    border-radius: 90px;
+    height: 120px;
+    margin: 0px 100px;
 }
 
 .colum-contaier-3 p {
@@ -1339,12 +1359,14 @@ body {
     font-size: 20px;
     color: #333333;
     line-height: 38px;
+    width: 30%;
 }
 
 .nosotros-icon-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
     gap: 80px;
     padding: 49px 75px;
     background-color: #219951;
@@ -1356,6 +1378,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+    height: fit-content;
+    width: 30%;
 }
 
 .nosotros-icon-container div p {
@@ -1406,8 +1431,8 @@ body {
     font-family: "Lato";
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 25px;
+    font-size: 38px;
+    line-height: 40px;
     color: #122a65;
     margin-bottom: 30px;
 }
@@ -1630,13 +1655,13 @@ body {
 }
 
 .parent-2 div div p {
-    padding: 0px 179px 0px 179px;
     font-family: "Lato";
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 33px;
     color: #1b1b1b;
+    text-align: center;
 }
 
 .parent-2 div div span {
@@ -1843,8 +1868,8 @@ body {
 }
 
 .termotanque-container img {
-    width: 460px;
-    height: 264px;
+    width: 550px;
+    height: 300px;
 }
 
 .termotanque-container div h3 {
@@ -2038,7 +2063,7 @@ body {
 }
 
 .estufas-container img {
-    width: 207.58px;
+    width: 240px;
     height: 400px;
 }
 
@@ -2453,7 +2478,7 @@ body {
 
 .fixed-prod {
     width: 100%;
-    background-image: url("../img/image23.png");
+    background-image: url("../newimg/productosfixed.png");
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
@@ -2622,6 +2647,14 @@ body {
 }
 
 @media screen and (max-width: 1199px) and (min-width: 1000px) {
+    .parent-2 div div p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .parent-2 div div span {
+        font-size: 16px;
+        line-height: 22px;
+    }
     .link-container li {
         margin-right: 2rem;
     }
@@ -2629,9 +2662,19 @@ body {
     .hac2 h3 {
         line-height: 40px;
     }
-    .compañeros-item-container div i {
-        font-size: 40px;
-        padding: 38px;
+    .colum-contaier-3 img {
+        margin: 0px;
+    }
+    .colum-contaier-3 {
+        align-items: center;
+    }
+    .colum-contaier-3 p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .compañeros-item-container div img {
+        height: 140px;
+        width: 140px;
     }
     .nosotros-icon-container {
         gap: 40px;
@@ -2693,8 +2736,8 @@ body {
         line-height: 18px;
     }
     .termotanque-container img {
-        width: 360px;
-        height: 164px;
+        width: 500px;
+        height: 250px;
     }
     .termotanque-container div div div i:hover small {
         bottom: 105px;
@@ -2707,7 +2750,7 @@ body {
         width: 68px;
         height: 68px;
         padding-top: 16px;
-        line-height: 12px;
+        line-height: 14px;
     }
     .piletas-container {
         margin: 0px 20px 75px 20px;
@@ -2726,6 +2769,9 @@ body {
         margin: 0px 20px;
         gap: 30px;
         padding: 40px 25px;
+    }
+    .estufas-container img {
+        height: 300px;
     }
     .pileta-img {
         width: 329px;
@@ -2755,7 +2801,7 @@ body {
         padding: 0px 160px;
     }
     .fixed-content {
-        height: 350px;
+        height: 400px;
     }
     .fixed-content-prod img,
     .fixed-content img {
@@ -2916,12 +2962,27 @@ body {
         padding: 75px 30px 50px 30px;
     }
     .colum-contaier-3 {
-        padding: 20px 25px;
+        padding: 20px 20px;
         gap: 30px;
+        align-items: center;
     }
-    .compañeros-item-container div i {
-        font-size: 40px;
-        padding: 38px;
+    .colum-contaier-3 img {
+        margin: 0px;
+    }
+    .colum-contaier-3 p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .compañeros-item-container div img {
+        height: 130px;
+        width: 130px;
+    }
+    .compañeros-item-container div p {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .compañeros-item-container div span {
+        font-size: 16px;
     }
     .nosotros-icon-container {
         gap: 40px;
@@ -2997,7 +3058,7 @@ body {
     }
     .termotanque-container img {
         width: 360px;
-        height: 164px;
+        height: 220px;
     }
     .termotanque-container div div div i:hover small {
         bottom: 105px;
@@ -3041,6 +3102,9 @@ body {
     .iluminacion-container img {
         width: 400px;
         height: 250px;
+    }
+    .estufas-container img {
+        height: 300px;
     }
     .fotovoltaico-container {
         margin: 0px 20px 75px 20px;
@@ -3234,11 +3298,11 @@ body {
         padding: 10px 0px;
     }
     .parent-2 div div p {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 27px;
     }
     .parent-2 div div span {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 22px;
         margin-top: 5px;
     }
@@ -3339,20 +3403,34 @@ body {
         font-size: 16px;
     }
     .colum-contaier-3 {
-        padding: 20px 25px;
-        gap: 30px;
+        padding: 20px 0px;
+        gap: 0px;
+        align-items: center;
     }
     .colum-contaier-3 img {
-        width: 150px;
-        height: 150px;
+        margin: 0px;
+        width: 140px;
+        height: 80px;
     }
     .colum-contaier-3 p {
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 25px;
+        gap: 20px;
+        width: 35%;
     }
-    .compañeros-item-container div i {
-        font-size: 40px;
-        padding: 38px;
+    .compañeros-item-container {
+        padding: 0px 20px;
+    }
+    .compañeros-item-container div img {
+        height: 130px;
+        width: 130px;
+    }
+    .compañeros-item-container div p {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .compañeros-item-container div span {
+        font-size: 16px;
     }
     .nosotros-icon-container {
         gap: 40px;
@@ -3444,14 +3522,14 @@ body {
     }
     .termotanque-container img {
         width: 360px;
-        height: 164px;
+        height: 220px;
     }
     .termotanque-container small {
         font-size: 12px;
         width: 55px;
         height: 55px;
         padding-top: 12px;
-        line-height: 10px;
+        line-height: 9px;
     }
     .piletas-container {
         margin: 0px 20px 75px 20px;
@@ -3471,9 +3549,12 @@ body {
         gap: 30px;
         padding: 40px 25px;
     }
+    .estufas-container img {
+        height: 300px;
+    }
     .pileta-img {
-        width: 329px;
-        height: 275px;
+        width: 250px;
+        height: 225px;
     }
     .iluminacion-container {
         margin: 75px 20px;
@@ -3688,12 +3769,12 @@ body {
         padding: 10px 0px;
     }
     .parent-2 div div p {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 27px;
     }
     .parent-2 div div span {
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 16px;
+        line-height: 18px;
         margin-top: 5px;
     }
     .form-container {
@@ -3779,6 +3860,14 @@ body {
 }
 
 @media screen and (max-width: 799px) and (min-width: 700px) {
+    .parent-2 div div p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .parent-2 div div span {
+        font-size: 16px;
+        line-height: 22px;
+    }
     .granizo-text .contact-alert {
         left: 90px;
     }
@@ -3815,20 +3904,38 @@ body {
         font-size: 16px;
     }
     .colum-contaier-3 {
-        padding: 20px 25px;
-        gap: 30px;
+        padding: 20px 0px;
+        gap: 0px;
+        align-items: center;
     }
     .colum-contaier-3 img {
-        width: 150px;
-        height: 150px;
+        margin: 0px;
+        width: 140px;
+        height: 80px;
     }
     .colum-contaier-3 p {
+        font-size: 16px;
+        line-height: 25px;
+        gap: 20px;
+        width: 35%;
+    }
+    .compañeros-item-container {
+        padding: 0px 20px;
+    }
+    .compañeros-item-container div img {
+        height: 130px;
+        width: 130px;
+    }
+    .compañeros-item-container div p {
         font-size: 18px;
-        line-height: 24px;
+        margin-top: 20px;
+    }
+    .compañeros-item-container div span {
+        font-size: 16px;
     }
     .compañeros-item-container {
         flex-wrap: wrap;
-        padding: 0px 130px;
+        padding: 0px 80px;
     }
     .compañeros-item-container div {
         padding-top: 20px;
@@ -3927,7 +4034,7 @@ body {
     }
     .termotanque-container img {
         width: 330px;
-        height: 134px;
+        height: 220px;
     }
     .termotanque-container small {
         font-size: 11px;
@@ -3960,7 +4067,7 @@ body {
     }
     .estufas-container img {
         width: 157px;
-        height: 350px;
+        height: 270px;
     }
     .estufas-text-container {
         gap: 25px;
@@ -3976,8 +4083,8 @@ body {
         line-height: 20px;
     }
     .pileta-img {
-        width: 260px;
-        height: 205px;
+        width: 200px;
+        height: 160px;
     }
     .iluminacion-container {
         margin: 75px 20px;
@@ -4202,11 +4309,11 @@ body {
         padding: 10px 0px;
     }
     .parent-2 div div p {
-        font-size: 18px;
+        font-size: 14px;
         line-height: 20px;
     }
     .parent-2 div div span {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 18px;
         margin-top: 5px;
     }
@@ -4331,22 +4438,6 @@ body {
         text-align: center;
         font-size: 18px;
         padding: 0px 40px;
-    }
-    .colum-contaier-3 {
-        padding: 20px 25px;
-        gap: 20px;
-    }
-    .colum-contaier-3 img {
-        width: 150px;
-        height: 150px;
-    }
-    .colum-contaier-3 p {
-        font-size: 13px;
-        line-height: 24px;
-    }
-    .compañeros-item-container {
-        flex-wrap: wrap;
-        padding: 0px 130px;
     }
     .compañeros-item-container div i {
         font-size: 40px;
@@ -4512,16 +4603,38 @@ body {
         font-size: 14px;
     }
     .colum-contaier-3 {
-        padding: 20px 25px;
-        gap: 30px;
+        padding: 20px 0px;
+        gap: 0px;
+        align-items: center;
     }
     .colum-contaier-3 img {
-        width: 150px;
-        height: 150px;
+        margin: 0px;
+        width: 120px;
+        height: 80px;
     }
     .colum-contaier-3 p {
+        font-size: 12px;
+        line-height: 20px;
+        gap: 20px;
+        width: 34%;
+    }
+    .compañeros-item-container {
+        padding: 0px 20px;
+    }
+    .compañeros-item-container div img {
+        height: 130px;
+        width: 130px;
+    }
+    .compañeros-item-container div p {
         font-size: 18px;
-        line-height: 24px;
+        margin-top: 20px;
+    }
+    .compañeros-item-container div span {
+        font-size: 16px;
+    }
+    .compañeros-item-container {
+        flex-wrap: wrap;
+        padding: 0px 80px;
     }
     .nosotros-icon-container {
         gap: 40px;
@@ -4628,8 +4741,8 @@ body {
         line-height: 17px;
     }
     .termotanque-container img {
-        width: 330px;
-        height: 134px;
+        width: 200px;
+        height: 200px;
     }
     .termotanque-container small {
         font-size: 11px;
@@ -4664,8 +4777,8 @@ body {
         padding: 40px 25px;
     }
     .estufas-container img {
-        width: 157px;
-        height: 350px;
+        width: 150px;
+        height: 270px;
     }
     .estufas-text-container {
         gap: 25px;
@@ -4681,8 +4794,8 @@ body {
         line-height: 20px;
     }
     .pileta-img {
-        width: 260px;
-        height: 205px;
+        width: 200px;
+        height: 170px;
     }
     .iluminacion-container {
         margin: 75px 20px;
@@ -4862,18 +4975,6 @@ body {
     .card-container div p {
         font-size: 15px;
         line-height: 20px;
-    }
-    .colum-contaier-3 {
-        padding: 20px 25px;
-        gap: 20px;
-    }
-    .colum-contaier-3 img {
-        width: 150px;
-        height: 150px;
-    }
-    .colum-contaier-3 p {
-        font-size: 13px;
-        line-height: 24px;
     }
     .compañeros-item-container {
         flex-wrap: wrap;
@@ -5074,9 +5175,15 @@ body {
         font-size: 18px;
         padding: 0px 40px;
     }
+    .fixed-content-prod {
+        height: 350px;
+    }
 }
 
 @media screen and (max-width: 599px) and (min-width: 400px) {
+    .fixed-content-prod {
+        height: 350px;
+    }
     .granizo-text .contact-alert {
         left: 40px;
         top: 40px;
@@ -5226,23 +5333,54 @@ body {
         font-size: 16px;
         margin-top: 10px;
         margin-bottom: 10px;
+        text-align: center;
     }
     .fernando-info-container p {
         font-size: 14px;
         text-align: center;
     }
+    .nosotros-icon-container {
+        align-items: center;
+    }
+    .nosotros-icon-container div {
+        width: fit-content;
+    }
     .colum-contaier-3 {
-        padding: 20px 25px;
-        gap: 30px;
+        padding: 20px 0px;
+        gap: 0px;
+        align-items: center;
         flex-direction: column;
+        gap: 50px;
     }
     .colum-contaier-3 img {
-        width: 150px;
-        height: 150px;
+        margin: 0px;
+        width: 160px;
+        height: 100px;
     }
     .colum-contaier-3 p {
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 25px;
+        gap: 20px;
+        width: fit-content;
+        padding: 0px 40px;
+    }
+    .compañeros-item-container {
+        padding: 0px 20px;
+    }
+    .compañeros-item-container div img {
+        height: 100px;
+        width: 100px;
+    }
+    .compañeros-item-container div p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .compañeros-item-container div span {
+        font-size: 12px;
+    }
+    .compañeros-item-container {
+        flex-wrap: wrap;
+        padding: 0px 20px;
     }
     .nosotros-icon-container {
         gap: 40px;
@@ -5386,8 +5524,8 @@ body {
         line-height: 18px;
     }
     .termotanque-container img {
-        width: 210px;
-        height: 120.52px;
+        width: 250px;
+        height: 190px;
     }
     .termotanque-container small {
         font-size: 16px;
@@ -5421,6 +5559,9 @@ body {
         height: 75px;
         margin-top: 10px;
     }
+    .piletas-container div {
+        align-items: center;
+    }
     .estufas-container {
         margin: 0px 20px;
         gap: 30px;
@@ -5428,7 +5569,7 @@ body {
         flex-direction: column;
     }
     .estufas-container img {
-        width: 130px;
+        width: 150px;
         height: 250px;
     }
     .estufas-text-container {
@@ -5656,6 +5797,7 @@ body {
         padding: 16px 40px;
         gap: 15px;
         width: fit-content;
+        align-items: center;
     }
     .card-container div h3 {
         font-size: 30px;
@@ -5670,18 +5812,6 @@ body {
     .card-container div p {
         text-align: center;
     }
-    .colum-contaier-3 {
-        padding: 20px 25px;
-        gap: 20px;
-    }
-    .colum-contaier-3 img {
-        width: 150px;
-        height: 150px;
-    }
-    .colum-contaier-3 p {
-        font-size: 13px;
-        line-height: 24px;
-    }
     .compañeros-container {
         margin-top: 50px;
     }
@@ -5689,22 +5819,8 @@ body {
         font-size: 26px;
         margin-bottom: 20px;
     }
-    .compañeros-item-container div p,
-    .compañeros-item-container div span {
-        font-size: 18px;
-    }
-    .compañeros-item-container {
-        flex-wrap: wrap;
-        padding: 0px 10px;
-        gap: 20px;
-    }
     .compañeros-item-container div {
         padding-top: 30px;
-    }
-    .compañeros-item-container div i {
-        font-size: 36px;
-        padding: 30px;
-        line-height: 20px;
     }
     .nosotros-icon-container div i {
         font-size: 36px;
@@ -5717,6 +5833,7 @@ body {
     }
     .title-grid-servicios {
         font-size: 32px;
+        padding: 0px 20px;
     }
     .parent-2 {
         padding: 40px 20px;
@@ -5943,6 +6060,9 @@ body {
 }
 
 @media screen and (max-width: 399px) and (min-width: 300px) {
+    .fixed-content-prod {
+        height: 350px;
+    }
     .granizo-text .contact-alert {
         left: 0px;
         top: 40px;
@@ -5962,6 +6082,7 @@ body {
         margin-bottom: 40px;
         font-size: 20px;
         text-align: center;
+        padding: 0px 20px;
     }
     .respond {
         font-size: 1rem;
@@ -6095,23 +6216,11 @@ body {
         font-size: 16px;
         margin-top: 10px;
         margin-bottom: 10px;
+        text-align: center;
     }
     .fernando-info-container p {
         font-size: 14px;
         text-align: center;
-    }
-    .colum-contaier-3 {
-        padding: 20px 25px;
-        gap: 30px;
-        flex-direction: column;
-    }
-    .colum-contaier-3 img {
-        width: 150px;
-        height: 150px;
-    }
-    .colum-contaier-3 p {
-        font-size: 18px;
-        line-height: 24px;
     }
     .nosotros-icon-container {
         gap: 40px;
@@ -6255,8 +6364,8 @@ body {
         line-height: 18px;
     }
     .termotanque-container img {
-        width: 210px;
-        height: 120.52px;
+        width: 230px;
+        height: 190px;
     }
     .termotanque-container small {
         font-size: 16px;
@@ -6290,6 +6399,9 @@ body {
         height: 75px;
         margin-top: 10px;
     }
+    .piletas-container div {
+        align-items: center;
+    }
     .estufas-container {
         margin: 0px 20px;
         gap: 30px;
@@ -6297,7 +6409,7 @@ body {
         flex-direction: column;
     }
     .estufas-container img {
-        width: 130px;
+        width: 150px;
         height: 250px;
     }
     .estufas-text-container {
@@ -6525,6 +6637,7 @@ body {
         padding: 16px 40px;
         gap: 15px;
         width: fit-content;
+        align-items: center;
     }
     .card-container div h3 {
         font-size: 30px;
@@ -6539,17 +6652,49 @@ body {
     .card-container div p {
         text-align: center;
     }
+    .nosotros-icon-container {
+        align-items: center;
+    }
+    .nosotros-icon-container div {
+        width: fit-content;
+        padding: 0px 20px;
+    }
     .colum-contaier-3 {
-        padding: 20px 25px;
-        gap: 20px;
+        padding: 20px 0px;
+        gap: 0px;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
     }
     .colum-contaier-3 img {
-        width: 150px;
-        height: 150px;
+        margin: 0px;
+        width: 160px;
+        height: 100px;
     }
     .colum-contaier-3 p {
-        font-size: 13px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 25px;
+        gap: 20px;
+        width: fit-content;
+        padding: 0px 40px;
+    }
+    .compañeros-item-container {
+        padding: 0px 20px;
+    }
+    .compañeros-item-container div img {
+        height: 100px;
+        width: 100px;
+    }
+    .compañeros-item-container div p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .compañeros-item-container div span {
+        font-size: 12px;
+    }
+    .compañeros-item-container {
+        flex-wrap: wrap;
+        padding: 0px 20px;
     }
     .compañeros-container {
         margin-top: 50px;
@@ -6810,6 +6955,7 @@ body {
     .title-testimony p {
         font-size: 18px;
         text-align: center;
+        padding: 0 20px;
     }
     .whatsapp {
         height: 40px;
@@ -6859,7 +7005,7 @@ body {
         align-items: center;
         width: 75%;
         min-height: 100vh;
-        z-index: 10;
+        z-index: 20;
         transition: all 1s;
     }
     .link-container li {
@@ -6882,17 +7028,5 @@ body {
     }
     .menu-burger {
         display: block;
-    }
-}
-
-@media screen and (max-width: 900px) and (min-width: 600px) {
-    .fixed-prod {
-        background-image: url("../img/image25.png");
-    }
-}
-
-@media screen and (max-width: 599px) and (min-width: 200px) {
-    .fixed-prod {
-        background-image: url("../img/image22.png");
     }
 }
