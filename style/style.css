@@ -81,9 +81,9 @@ body {
 
 .link-container li a {
     text-decoration: none;
-    color: #000;
+    color: #262524;
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 400;
     transition: all 0.3s;
 }
 
@@ -425,7 +425,7 @@ body {
     font-size: 40px;
     padding: 28px;
     background: #ffffff;
-    border: 3.5px dashed #fbfbfb;
+    border: 3px dashed #fbfbfb;
     border-radius: 90px;
     color: #122a65;
 }
@@ -533,6 +533,10 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
+.servicio-1:hover div {
+    background: rgba(101, 78, 18, 0.6);
+}
+
 .servicio-1 div {
     background: rgba(101, 78, 18, 0.4);
     height: 100%;
@@ -588,6 +592,10 @@ body {
     overflow: hidden;
 }
 
+.servicio-2:hover div {
+    background: rgba(12, 101, 53, 0.6);
+}
+
 .servicio-2 div {
     background: rgba(12, 101, 53, 0.4);
     height: 100%;
@@ -639,6 +647,10 @@ body {
     cursor: pointer;
     transition: all 0.8s ease-in-out;
     overflow: hidden;
+}
+
+.servicio-3:hover div {
+    background: rgba(18, 42, 101, 0.6);
 }
 
 .servicio-3 div {
@@ -1158,6 +1170,7 @@ body {
 
 .servicios-container-ser h2 {
     width: 600px;
+    font-family: "Nunito";
     font-size: 3rem;
     color: #219951;
     font-style: normal;
@@ -1166,6 +1179,7 @@ body {
 }
 
 .servicios-container-ser p {
+    font-family: "Nunito";
     width: 600px;
     font-size: 1rem;
     margin-top: 1rem;
@@ -1361,7 +1375,7 @@ body {
     text-align: center;
     font-family: "Lato";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     color: #333333;
     line-height: 38px;
@@ -1451,6 +1465,11 @@ body {
     font-size: 18px;
     line-height: 25px;
     color: #1b1b1b;
+}
+
+.hac2 h3,
+.hac2 p {
+    text-align: right;
 }
 
 
@@ -2228,6 +2247,11 @@ body {
     height: 300px;
 }
 
+#offgrid {
+    text-align: right;
+    padding-right: 0px;
+}
+
 
 /*Contacto Page*/
 
@@ -2949,6 +2973,9 @@ body {
     .footer-section-2 {
         justify-content: space-around;
     }
+    .respond {
+        padding: 0px 70px;
+    }
 }
 
 @media screen and (max-width: 999px) and (min-width: 900px) {
@@ -3376,6 +3403,7 @@ body {
         flex-direction: row;
         align-items: center;
     }
+    .respond,
     .respond-2 {
         padding: 0px 30px;
     }
@@ -3866,8 +3894,9 @@ body {
     .map {
         height: 400px;
     }
+    .respond,
     .respond-2 {
-        padding: 0px 20px;
+        padding: 0px 30px;
     }
 }
 
@@ -3883,8 +3912,9 @@ body {
     .granizo-text .contact-alert {
         left: 90px;
     }
+    .respond,
     .respond-2 {
-        padding: 0px 50px;
+        padding: 0px 40px;
     }
     .header-title-container {
         padding: 0.6rem;
@@ -4476,6 +4506,7 @@ body {
 }
 
 @media screen and (max-width: 699px) and (min-width: 600px) {
+    .respond,
     .respond-2 {
         padding: 0px 20px;
     }
@@ -5262,7 +5293,7 @@ body {
         flex-wrap: wrap;
     }
     .contador-item-container {
-        margin: 0px 10px;
+        margin: 0px 20px;
         padding-top: 20px;
     }
     #contador_cantidad {
@@ -5643,6 +5674,9 @@ body {
     }
     .ongrid {
         flex-direction: column;
+    }
+    #offgrid {
+        text-align: center;
     }
     .ongrid img {
         width: 224.4px;
@@ -6145,7 +6179,7 @@ body {
         flex-wrap: wrap;
     }
     .contador-item-container {
-        margin: 0px 10px;
+        margin: 0px 15px;
         padding-top: 20px;
     }
     #contador_cantidad {
@@ -6487,6 +6521,9 @@ body {
     .ongrid img {
         width: 224.4px;
         height: 240px;
+    }
+    #offgrid {
+        text-align: center;
     }
     .fotovoltaico-container div div h3 {
         text-align: center;
