@@ -350,6 +350,8 @@ body {
     margin-bottom: 80px;
     line-height: 27px;
     margin-top: 12px;
+    text-align: center;
+    padding: 0px 30px;
 }
 
 .respond {
@@ -906,7 +908,7 @@ body {
 }
 
 .bg {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -3374,6 +3376,9 @@ body {
         flex-direction: row;
         align-items: center;
     }
+    .respond-2 {
+        padding: 0px 30px;
+    }
 }
 
 @media screen and (max-width: 899px) and (min-width: 800px) {
@@ -3860,6 +3865,9 @@ body {
     }
     .map {
         height: 400px;
+    }
+    .respond-2 {
+        padding: 0px 20px;
     }
 }
 
@@ -4462,9 +4470,15 @@ body {
         font-family: nunito;
         font-weight: 100;
     }
+    .respond-2 {
+        padding: 0px 20px;
+    }
 }
 
 @media screen and (max-width: 699px) and (min-width: 600px) {
+    .respond-2 {
+        padding: 0px 20px;
+    }
     .header-title-container {
         padding: 0.6rem;
     }
