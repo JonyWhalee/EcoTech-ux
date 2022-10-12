@@ -137,6 +137,10 @@ body {
 
 /* btn whtsp */
 
+.mail {
+    cursor: default;
+}
+
 .whatsapp {
     height: 50px;
     width: 50px;
@@ -2503,7 +2507,7 @@ body {
 }
 
 .fixed-prod p {
-    font-family: "Roboto";
+    font-family: "Lato";
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
