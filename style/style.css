@@ -137,6 +137,10 @@ body {
 
 /* btn whtsp */
 
+.mail {
+    cursor: default;
+}
+
 .whatsapp {
     height: 50px;
     width: 50px;
