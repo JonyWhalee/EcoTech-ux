@@ -42,7 +42,7 @@ let swiper2 = new Swiper(".mySwiper2", {
 
 addEventListener("DOMContentLoaded", () => {
     const contadores = document.querySelectorAll(".contador-cantidad");
-    const velocidad = 300;
+    const velocidad = 1000000;
     const animarContadores = () => {
         for (const contador of contadores) {
             const actualizar_contador = () => {
@@ -51,7 +51,7 @@ addEventListener("DOMContentLoaded", () => {
                     incremento = cantidad_maxima / velocidad;
                 if (valor_actual < cantidad_maxima) {
                     contador.innerText = Math.ceil(valor_actual + incremento);
-                    setTimeout(actualizar_contador, 1);
+                    setTimeout(actualizar_contador, 80);
                 } else {
                     contador.innerText = cantidad_maxima;
                 }
